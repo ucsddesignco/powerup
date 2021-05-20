@@ -1,38 +1,30 @@
 .App {
   text-align: center;
+  font-family: "Neue Plak";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/********* FONTS ********/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@font-face {
+  font-family: "Neue Plak";
+  src: url("../src/assets/fonts/NeuePlak-ExtendedBold.woff") format("woff");
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "NB International Regular";
+  src: url("../src/assets/fonts/NB-International-Pro-Regular.woff")
+    format("woff");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "NB International Mono";
+  src: url("../src/assets/fonts/NBInternationalMonoWebfont.woff") format("woff");
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "NB International Light";
+  src: url("../src/assets/fonts/NBInternationalPro-Lig.woff") format("woff");
 }
