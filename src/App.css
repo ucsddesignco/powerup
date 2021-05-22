@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
-  font-family: "Neue Plak";
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .cursor {
@@ -306,4 +306,110 @@
   .footer a {
     margin-top: -0.4rem;
   }
+}
+
+/********* NAVBAR ********/
+.navbar {
+  background-color: #E0D9D5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 8vw;
+  width: auto;
+  height: 70px;
+  font-family: "Neue Plak";
+  border-bottom: 2px solid #292929;
+}
+
+.nav-title {
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#ball-logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#button {
+  padding: 2px 12px 8px 12px;
+  background-color: #FF5722;
+  border: 2px solid #000000;
+  border-radius: 120px;
+}
+
+#button:hover {
+  text-decoration: none;
+  background-color: #E0D9D5;
+}
+
+/********* LANDING ********/
+.landing-section {
+  font-family: "Inter";
+  background-color: #E0D9D5;
+  width: auto;
+  height: auto;
+  padding: 5rem 8vw 12rem 8vw;
+}
+
+.top-container {
+  display: inline-block;
+  margin-bottom: 9rem;
+  vertical-align: top;
+}
+
+#arrow {
+  margin-right: 1.5rem;
+}
+
+.top-text {
+  font-size: 1.5rem;
+  width: 20rem;
+}
+
+.top-text a {
+  color: black;
+}
+
+#logo {
+  margin-bottom: -2rem;
+}
+
+.landing-title {
+  font-family: "Neue Plak";
+  font-size: 6rem;
+}
+
+.text-container {
+  border: 1px solid #292929;
+  border-radius: 70px;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  display: inline-block;
+  margin: 1.5rem 1rem 0 0;
+}
+
+.text-container h3 {
+  font-size: 1rem;
+}
+
+#right {
+  float: right;
+  vertical-align: center;
 }
