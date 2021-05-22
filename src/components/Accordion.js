@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FiPlus, FiX } from "react-icons/fi";
 import FAQ from "./FAQ";
 
 function Accordion() {
