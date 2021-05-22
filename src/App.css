@@ -309,6 +309,7 @@
 }
 
 /********* NAVBAR ********/
+
 .navbar {
   background-color: #E0D9D5;
   display: flex;
@@ -358,12 +359,13 @@ a:hover {
 }
 
 /********* LANDING ********/
+
 .landing-section {
   font-family: "Inter";
   background-color: #E0D9D5;
   width: auto;
   height: auto;
-  padding: 5rem 8vw 12rem 8vw;
+  padding: 4rem 8vw 12rem 8vw;
 }
 
 .top-container {
@@ -412,4 +414,62 @@ a:hover {
 #right {
   float: right;
   vertical-align: center;
+}
+
+/********* ABOUT ********/
+
+.about-section {
+  width: auto;
+  height: auto;
+  padding: 7.5rem 8vw 9rem 8vw;
+  background: url(assets/images/about-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-section h1 {
+  font-family: "Neue Plak";
+  font-size: 4rem;
+  color: #E0D9D5;
+}
+
+.about-text {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  width: 48rem;
+  padding: 1.25rem;
+  border: 3px solid #E0D9D5;
+  border-radius: 10px;
+  margin: 4rem 0 0 auto;
+  color: #E0D9D5;
+  background-color: #292929;
+  line-height: 1.5;
+}
+
+/********* ABOUT MEDIA QUERY ********/
+
+@media(max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    background-color: #292929;
+    background: url(assets/images/mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .about-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    -webkit-text-stroke: 1px #e0d9d5;
+    color: #292929;
+  }
+
+  .about-text {
+    width: 22rem;
+    margin: 4rem auto 0 auto;
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
 }
