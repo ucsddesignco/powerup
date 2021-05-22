@@ -44,6 +44,7 @@ function WhyApply() {
               <a
                 className="level-up-showcase-link"
                 href="https://levelup.ucsddesign.co/"
+                target="_blank"
               >
                 Level Up’s showcase
               </a>
