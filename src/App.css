@@ -9,13 +9,13 @@
   width: 155px;
   height: 155px;
   opacity: 100%;
-  /* border-radius: 50%; */
   background: url("./assets/images/cursor-gr.png");
   transform: translate(-50%, -50%);
   justify-content: center;
   align-items: center;
   display: flex;
   mix-blend-mode: color-dodge;
+  pointer-events: none;
 }
 
 @media (max-width: 480px) {
