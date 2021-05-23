@@ -5,7 +5,7 @@
 
 .cursor {
   position: absolute;
-  z-index: 999;
+  z-index: 100;
   width: 155px;
   height: 155px;
   opacity: 100%;
@@ -18,7 +18,7 @@
   pointer-events: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .cursor {
     display: none;
   }
