@@ -18,6 +18,12 @@
   mix-blend-mode: color-dodge;
 }
 
+@media (max-width: 480px) {
+  .cursor {
+    display: none;
+  }
+}
+
 /* .yellow-cursor {
   width: 40px;
   height: 40px;
