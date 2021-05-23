@@ -3,8 +3,6 @@ import { Grid } from "@material-ui/core";
 import React, { useState, useEffect, useContext } from 'react';
 import Draggable from 'react-draggable';
 
-import gsap from "gsap";
-
 function Cards() {
 
     const [cursorX, setCursorX] = useState();

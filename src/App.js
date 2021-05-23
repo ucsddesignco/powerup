@@ -9,23 +9,23 @@ import Overview from "./components/Overview";
 import Cards from "./components/Cards";
 
 function App() {
-  /* const [cursorX, setCursorX] = useState();
+  const [cursorX, setCursorX] = useState();
   const [cursorY, setCursorY] = useState();
 
   window.addEventListener("mousemove", (e) => {
     setCursorX(e.pageX);
     setCursorY(e.pageY);
-  }); */
+  });
 
   return (
     <div className="App">
-     {/*  <div
+      <div
         className="cursor"
         style={{
           left: cursorX + "px",
           top: cursorY + "px",
         }}
-      ></div> */}
+      ></div>
       <Landing />
       <About />
       <Overview></Overview>
