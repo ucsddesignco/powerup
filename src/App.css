@@ -4,6 +4,11 @@ body {
   overflow-x: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .cursor {
   top: 0;
   left: 0;
@@ -19,6 +24,12 @@ body {
   display: flex;
   mix-blend-mode: color-dodge;
   pointer-events: none;
+}
+
+@media (max-width: 375px) {
+  .cursor {
+    display: none;
+  }
 }
 
 /********* FONTS ********/
@@ -45,6 +56,257 @@ src: url("./assets/fonts/NBInternationalMonoWebfont.woff") format("woff");
 @font-face {
 font-family: "NB International Light";
 src: url("./assets/fonts/NBInternationalPro-Lig.woff") format("woff");
+}
+
+/********* NAVBAR ********/
+
+.navbar {
+  background-color: #E0D9D5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5vw 8vw;
+  width: auto;
+  height: 70px;
+  font-family: "Neue Plak";
+  border-bottom: 2px solid #292929;
+}
+
+.nav-title {
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#ball-logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#button {
+  padding: 2px 12px 8px 12px;
+  background-color: #FF5722;
+  border: 2px solid #000000;
+  border-radius: 120px;
+}
+
+#button:hover {
+  text-decoration: none;
+  background-color: #E0D9D5;
+}
+
+.navbar nav.mobile {
+  display: none;
+}
+
+.mobile .nav-container {
+  position: absolute;
+  z-index: 11;
+  top: calc(70px + 6vw);
+  left: 0;
+  width: 100%;
+  height: calc(100% - 70px - 6vw);
+  padding: 10vw 0;
+  box-sizing: border-box;
+  background: #E0D9D5;
+  text-align: center;
+}
+
+.nav-container a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-item {
+  border-bottom: 2px solid #292929;
+  padding: 0.5rem;
+}
+
+.nav-item:first-child {
+  margin-top: -70px;
+}
+
+.nav-item:last-child {
+  background-color: #FF5722;
+}
+
+@media(max-width: 768px) {
+  .navbar nav.desktop {
+    display: none;
+  }
+
+  .navbar nav.mobile {
+    display: block;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+  }
+
+  #ball-logo {
+    width: 40px;
+  }
+}
+
+/********* LANDING ********/
+
+.landing-section {
+  background-color: #E0D9D5;
+  width: auto;
+  height: auto;
+  padding: 4rem 8vw 12rem 8vw;
+}
+
+.top-container {
+  font-family: "Inter";
+  display: inline-block;
+  margin-bottom: 9rem;
+  vertical-align: top;
+}
+
+#arrow {
+  margin-right: 1.5rem;
+}
+
+.top-text {
+  font-size: 1.5rem;
+  width: 20rem;
+  text-align: justify;
+}
+
+.top-text a {
+  color: black;
+}
+
+#logo {
+  margin-bottom: -2rem;
+}
+
+.landing-title {
+  font-family: "Neue Plak";
+  font-size: 6rem;
+}
+
+.text-container {
+  font-family: "NB International Regular";
+  border: 1px solid #292929;
+  border-radius: 70px;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  display: inline-block;
+  margin: 1.5rem 1rem 0 0;
+}
+
+.text-container h3 {
+  font-size: 1rem;
+}
+
+.right {
+  float: right;
+  vertical-align: center;
+}
+
+.mobile-landing {
+  display: none;
+}
+
+/********* LANDING MEDIA QUERY ********/
+
+@media(max-width: 768px) {
+  .landing-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    text-align: center;
+  }
+
+  .top-container {
+    margin-bottom: 2rem;
+  }
+
+  .top-text {
+    width: 15rem;
+    text-align: left;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  #arrow {
+    margin-right: 1rem;
+  }
+
+  #arrow img {
+    width: 36px;
+  }
+
+  .landing-title {
+    font-size: 3rem;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #top {
+    order: 1;
+  }
+
+  #shop {
+    order: 2;
+    margin: 1rem auto;
+  }
+
+  #shop img {
+    width: 80%;
+    height: auto;
+  }
+
+  #bottom {
+    order: 3;
+  }
+
+  .mobile-landing {
+    display: block;
+    order: 4;
+    width: 10rem;
+    border: 1px solid #000000;
+    border-radius: 120px;
+    margin: 1.5rem auto 0 auto;
+    padding: 1rem;
+    background-color: #FF5722;
+  }
+
+  .mobile-landing a {
+    font-family: "Neue Plak";
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  .text-container {
+    width: 20rem;
+  }
+
+  .text-container:last-child {
+    margin-top: 0.5rem;
+  }
 }
 
 /********* Overview ********/
@@ -409,3 +671,315 @@ src: url("./assets/fonts/NBInternationalPro-Lig.woff") format("woff");
 }
 
 
+/********* ABOUT ********/
+
+.about-section {
+  width: auto;
+  height: auto;
+  padding: 7.5rem 8vw 9rem 8vw;
+  background: url(assets/images/about-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-section h1 {
+  font-family: "Neue Plak";
+  font-size: 4rem;
+  color: #E0D9D5;
+}
+
+.about-text {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  width: 48rem;
+  padding: 1.25rem;
+  border: 3px solid #E0D9D5;
+  border-radius: 10px;
+  margin: 4rem 0 0 auto;
+  color: #E0D9D5;
+  background-color: #292929;
+  line-height: 1.5;
+}
+
+/********* ABOUT MEDIA QUERY ********/
+
+@media(max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    background-color: #292929;
+    background: url(assets/images/mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .about-section h1 {
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    -webkit-text-stroke: 1px #e0d9d5;
+    color: #292929;
+  }
+
+  .about-text {
+    width: 85%;
+    margin: 2rem auto 0 auto;
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
+}
+
+/********* Why Apply ********/
+
+#whyapply-section {
+  background-color: #e0d9d5;
+  padding: 7.5rem 8vw;
+  color: #292929;
+  display: flex;
+  flex-direction: row;
+}
+
+.apply-left-container {
+  font-family: "Neue Plak";
+  margin-right: 6rem;
+}
+
+.apply-left-container h2 {
+  font-size: 4rem;
+  margin: 0;
+  text-align: left;
+}
+
+.apply-right-container {
+  height: auto;
+  font-size: 1.5rem;
+}
+
+.apply-item {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.orange-arrow {
+  margin-right: 2.5rem;
+  align-self: flex-start;
+  margin-top: 2rem;
+}
+
+.level-up-showcase-link {
+  text-decoration: underline;
+  color: #292929;
+  transition: 0.2s;
+}
+
+.level-up-showcase-link:hover {
+  transition: 0.2s;
+  opacity: 0.8;
+  color: #ff5722;
+}
+
+.apply-here-btn {
+  background-color: #ff5722;
+  border: 1px solid #292929;
+  border-radius: 120px;
+  font-family: "Neue Plak";
+  font-size: 1.25rem;
+  padding: 1rem 1rem 1.25rem 1rem;
+  width: 154px;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  display: none;
+  text-decoration: none;
+  color: #292929;
+  transition: all 0.2s ease;
+}
+
+.apply-here-btn:hover {
+  background-color: #292929;
+  border: 1px solid #292929;
+  border-radius: 120px;
+  font-family: "Neue Plak";
+  font-size: 1.25rem;
+  padding: 1rem 1rem 1.25rem 1rem;
+  width: 154px;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  text-decoration: none;
+  color: #e0d9d5;
+  transition: all 0.2s ease;
+}
+
+/**** Why Apply Media Query ***/
+@media (max-width: 768px) {
+  #whyapply-section {
+    flex-direction: column;
+    padding-top: 3.5rem;
+  }
+  .apply-left-container h2 {
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+  }
+  .apply-right-container p {
+    font-size: 1.25rem;
+  }
+  .orange-arrow {
+    transform: scale(0.8);
+  }
+  .apply-here-btn {
+    display: inline;
+  }
+}
+
+/********* FAQ ********/
+
+#faq {
+  background: #292929;
+  padding-top: 7.5rem;
+}
+
+.faq-title {
+  color: #292929;
+  -webkit-text-stroke: 3px #e0d9d5;
+  font-family: "Neue Plak";
+  font-size: 5rem;
+  text-align: left;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-bottom: 2.5rem;
+  border-bottom: 1.5px solid #e0d9d5;
+}
+
+/********* Accordion ********/
+.faqs {
+  width: 100%;
+  text-align: left;
+  color: #e0d9d5;
+}
+
+.faqs .faq {
+  border: 1.5px solid #e0d9d5;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 1.5rem 8vw;
+}
+
+.faqs .faq .faq-question {
+  position: relative;
+  font-size: 1.5rem;
+  padding-right: 80px;
+  font-family: "Neue Plak";
+  font-size: 1.5rem;
+
+  transition: all 0.2s ease;
+}
+
+.faqs .faq .faq-question::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1rem;
+
+  background-image: url("./assets/images/icon-plus.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease;
+}
+
+.faqs .faq .faq-answer {
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.2s ease;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.faqs .faq.open .faq-question {
+  margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+  transform: translateY(-50%) rotate(135deg);
+}
+
+.faqs .faq.open .faq-answer {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+/**** FAQ Media Query ***/
+@media (max-width: 768px) {
+  #faq {
+    padding-top: 3.5rem;
+  }
+  .faq-title {
+    font-size: 3rem;
+  }
+  .faqs .faq .faq-question {
+    font-size: 1.25rem;
+  }
+  .faqs .faq .faq-answer {
+    font-size: 1rem;
+  }
+}
+
+/********* Footer ********/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #e0d9d5;
+  padding: 0rem 8vw 2rem 8vw;
+  color: #292929;
+  border-top: 1.5rem solid #e0d9d5;
+  font-family: "Inter";
+  align-items: center;
+  font-size: 1rem;
+}
+
+#email {
+  font-family: "Inter";
+}
+
+.signature img {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  color: inherit;
+}
+
+.footer-logo {
+  height: 18px;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+}
+
+.signature span {
+  display: flex;
+}
+
+/**** Footer Media Query ***/
+@media (max-width: 992px) {
+  .footer {
+    flex-wrap: wrap;
+    padding-bottom: 1.5rem;
+  }
+  .footer a {
+    margin-top: -0.4rem;
+  }
+}
