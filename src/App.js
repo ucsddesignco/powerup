@@ -1,5 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
+import Landing from "./components/Landing";
+import About from "./components/About";
 import FAQStructure from "./components/FAQStructure";
 import Footer from "./components/Footer";
 import WhyApply from "./components/WhyApply";
@@ -22,6 +24,8 @@ function App() {
           top: cursorY + "px",
         }}
       ></div>
+      <Landing />
+      <About />
       <WhyApply />
       <FAQStructure />
       <Footer />

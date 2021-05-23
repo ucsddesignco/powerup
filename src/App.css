@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
-  font-family: "Neue Plak";
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .cursor {
@@ -52,6 +52,305 @@
 @font-face {
   font-family: "NB International Light";
   src: url("../src/assets/fonts/NBInternationalPro-Lig.woff") format("woff");
+}
+
+/********* NAVBAR ********/
+
+.navbar {
+  background-color: #E0D9D5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5vw 8vw;
+  width: auto;
+  height: 70px;
+  font-family: "Neue Plak";
+  border-bottom: 2px solid #292929;
+}
+
+.nav-title {
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#ball-logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#button {
+  padding: 2px 12px 8px 12px;
+  background-color: #FF5722;
+  border: 2px solid #000000;
+  border-radius: 120px;
+}
+
+#button:hover {
+  text-decoration: none;
+  background-color: #E0D9D5;
+}
+
+.navbar nav.mobile {
+  display: none;
+}
+
+.mobile .nav-container {
+  position: absolute;
+  z-index: 11;
+  top: calc(70px + 6vw);
+  left: 0;
+  width: 100%;
+  height: calc(100% - 70px - 6vw);
+  padding: 10vw 0;
+  box-sizing: border-box;
+  background: #E0D9D5;
+  text-align: center;
+}
+
+.nav-container a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-item {
+  border-bottom: 2px solid #292929;
+  padding: 0.5rem;
+}
+
+.nav-item:first-child {
+  margin-top: -70px;
+}
+
+.nav-item:last-child {
+  background-color: #FF5722;
+}
+
+@media(max-width: 768px) {
+  .navbar nav.desktop {
+    display: none;
+  }
+
+  .navbar nav.mobile {
+    display: block;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+  }
+
+  #ball-logo {
+    width: 40px;
+  }
+}
+
+/********* LANDING ********/
+
+.landing-section {
+  background-color: #E0D9D5;
+  width: auto;
+  height: auto;
+  padding: 4rem 8vw 12rem 8vw;
+}
+
+.top-container {
+  font-family: "Inter";
+  display: inline-block;
+  margin-bottom: 9rem;
+  vertical-align: top;
+}
+
+#arrow {
+  margin-right: 1.5rem;
+}
+
+.top-text {
+  font-size: 1.5rem;
+  width: 20rem;
+}
+
+.top-text a {
+  color: black;
+}
+
+#logo {
+  margin-bottom: -2rem;
+}
+
+.landing-title {
+  font-family: "Neue Plak";
+  font-size: 6rem;
+}
+
+.text-container {
+  font-family: "NB International Regular";
+  border: 1px solid #292929;
+  border-radius: 70px;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  display: inline-block;
+  margin: 1.5rem 1rem 0 0;
+}
+
+.text-container h3 {
+  font-size: 1rem;
+}
+
+.right {
+  float: right;
+  vertical-align: center;
+}
+
+.mobile-landing {
+  display: none;
+}
+
+/********* LANDING MEDIA QUERY ********/
+
+@media(max-width: 768px) {
+  .landing-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    text-align: center;
+  }
+
+  .top-container {
+    margin-bottom: 2rem;
+  }
+
+  .top-text {
+    width: 21rem;
+    text-align: left;
+    font-size: 1.25rem;
+  }
+
+  .landing-title {
+    font-size: 4rem;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #top {
+    order: 1;
+  }
+
+  #shop {
+    order: 2;
+    margin: 1rem auto;
+  }
+
+  #shop img {
+    width: 80%;
+    height: auto;
+  }
+
+  #bottom {
+    order: 3;
+  }
+
+  .mobile-landing {
+    display: block;
+    order: 4;
+    width: 10rem;
+    border: 1px solid #000000;
+    border-radius: 120px;
+    margin: 1.5rem auto 0 auto;
+    padding: 1rem;
+    background-color: #FF5722;
+  }
+
+  .mobile-landing a {
+    font-family: "Neue Plak";
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  .text-container {
+    width: 20rem;
+  }
+
+  .text-container:last-child {
+    margin-top: 0.5rem;
+  }
+}
+
+/********* ABOUT ********/
+
+.about-section {
+  width: auto;
+  height: auto;
+  padding: 7.5rem 8vw 9rem 8vw;
+  background: url(assets/images/about-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-section h1 {
+  font-family: "Neue Plak";
+  font-size: 4rem;
+  color: #E0D9D5;
+}
+
+.about-text {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  width: 48rem;
+  padding: 1.25rem;
+  border: 3px solid #E0D9D5;
+  border-radius: 10px;
+  margin: 4rem 0 0 auto;
+  color: #E0D9D5;
+  background-color: #292929;
+  line-height: 1.5;
+}
+
+/********* ABOUT MEDIA QUERY ********/
+
+@media(max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    background-color: #292929;
+    background: url(assets/images/mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .about-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    -webkit-text-stroke: 1px #e0d9d5;
+    color: #292929;
+  }
+
+  .about-text {
+    width: 22rem;
+    margin: 2rem auto 0 auto;
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
 }
 
 /********* Why Apply ********/
