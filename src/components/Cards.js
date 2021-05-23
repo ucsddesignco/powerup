@@ -1,6 +1,7 @@
 import "../App.css";
 import { Grid } from "@material-ui/core";
 import React, { useState, useEffect, useContext } from 'react';
+import Draggable from 'react-draggable';
 
 import gsap from "gsap";
 
@@ -40,10 +41,11 @@ function Cards() {
                             <p className="cards-title-text">Blendees</p>
                             <div className="cards-line"></div>
                         </div>
+                        <Draggable><div className="cards-item1-img"></div></Draggable>
                         <div className="cards-contact">
-                            <p className="contact-first-text">Instagram</p>
-                            <p className="contact-text">Facebook</p>
-                            <p className="contact-text">Website</p>
+                            <a target="_blank" href="https://www.instagram.com/blendees/"><p className="contact-first-text">Instagram</p></a>
+                            <a target="_blank" href="https://www.facebook.com/Blendees/"><p className="contact-text">Facebook</p></a>
+                            <a target="_blank" href="https://blendees.com/"><p className="contact-text">Website</p></a>
                         </div>
                         <ul className="cards-bullets">
                             <li className="bullet-text">Black-owned smoothie and juice bar</li>
@@ -61,9 +63,10 @@ function Cards() {
                             <p className="cards-title-text">Kini Koffee</p>
                             <div className="cards-line"></div>
                         </div>
+                        <Draggable><div className="cards-item2-img"></div></Draggable>
                         <div className="cards-contact">
-                            <p className="contact-first-text">Instagram</p>
-                            <p className="contact-text">Facebook</p>
+                            <a target="_blank" href="https://www.instagram.com/kinikoffee/?hl=en"><p className="contact-first-text">Instagram</p></a>
+                            <a target="_blank" href="https://www.facebook.com/Kini-Koffee-1213535565513951/"><p className="contact-text">Facebook</p></a>
                         </div>
                         <ul className="cards-bullets">
                             <li className="bullet-text">Women-led and run coffee shop</li>
@@ -77,13 +80,14 @@ function Cards() {
                     onMouseEnter={() => setHover("item3-cursor")}
                     onMouseLeave={() => setHover("cursor")}
                     >
+                        <Draggable><div className="cards-item3-img"></div></Draggable>
                         <div className="cards-title">
                             <p className="cards-title-text">Furlicious</p>
                             <div className="cards-line"></div>
                         </div>
                         <div className="cards-contact">
-                            <p className="contact-first-text">Instagram</p>
-                            <p className="contact-text">Website</p>
+                            <a target="_blank" href="https://www.instagram.com/furrylicious/?hl=en"><p className="contact-first-text">Instagram</p></a>
+                            <a target="_blank" href="https://www.furrylicious.com/"><p className="contact-text">Website</p></a>
                         </div>
                         <ul className="cards-bullets">
                             <li className="bullet-text">Black-owned pet care/dog training classes</li>
@@ -101,9 +105,10 @@ function Cards() {
                             <p className="cards-title-text">Skinfolk</p>
                             <div className="cards-line"></div>
                         </div>
+                        <Draggable><div className="cards-item4-img"></div></Draggable>
                         <div className="cards-contact">
-                            <p className="contact-first-text">Instagram</p>
-                            <p className="contact-text">Website</p>
+                            <a target="_blank" href="https://www.instagram.com/skinfolk13/?hl=en"><p className="contact-first-text">Instagram</p></a>
+                            <a target="_blank" href="https://www.myskinfolk.com/"><p className="contact-text">Website</p></a>
                         </div>
                         <ul className="cards-bullets">
                             <li className="bullet-text">Black-owned organic cosmetics brand</li>
@@ -117,12 +122,13 @@ function Cards() {
                     onMouseEnter={() => setHover("item5-cursor")}
                     onMouseLeave={() => setHover("cursor")}
                     >
+                        <Draggable><div className="cards-item5-img"></div></Draggable>
                         <div className="cards-title">
                             <p className="cards-title-large-text">Cut & Dry Barbershop</p>
                             <div className="cards-line"></div>
                         </div>
                         <div className="cards-contact">
-                            <p className="contact-text">Website</p>
+                            <a target="_blank" href="http://cutanddrybarbershop.com/"><p className="contact-text">Website</p></a>
                         </div>
                         <ul className="cards-bullets">
                             <li className="bullet-text">Asian American-owned barber shop</li>
@@ -136,13 +142,14 @@ function Cards() {
                     onMouseEnter={() => setHover("item6-cursor")}
                     onMouseLeave={() => setHover("cursor")}
                     >
+                        <Draggable><div className="cards-item6-img"></div></Draggable>
                         <div className="cards-title">
                             <p className="cards-title-text">Cafe X</p>
                             <div className="cards-line"></div>
                         </div>
                         <div className="cards-contact">
-                            <p className="contact-first-text">Instagram</p>
-                            <p className="contact-text">Website</p>
+                            <a target="_blank" href="http://instagram.com/theofficialcafex"><p className="contact-first-text">Instagram</p></a>
+                            <a target="_blank" href="https://www.byanybeans.org/"><p className="contact-text">Website</p></a>
                         </div>
                         <ul className="cards-bullets">
                             <li className="bullet-text">Black, women-owned coffee shop</li>
