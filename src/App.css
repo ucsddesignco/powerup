@@ -61,7 +61,7 @@ src: url("./assets/fonts/NBInternationalPro-Lig.woff") format("woff");
 /********* NAVBAR ********/
 
 .navbar {
-  background-color: #E0D9D5;
+  background-color: #e0d9d5;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -98,14 +98,14 @@ a:hover {
 
 #button {
   padding: 2px 12px 8px 12px;
-  background-color: #FF5722;
+  background-color: #ff5722;
   border: 2px solid #000000;
   border-radius: 120px;
 }
 
 #button:hover {
   text-decoration: none;
-  background-color: #E0D9D5;
+  background-color: #e0d9d5;
 }
 
 .navbar nav.mobile {
@@ -121,7 +121,7 @@ a:hover {
   height: calc(100% - 70px - 6vw);
   padding: 10vw 0;
   box-sizing: border-box;
-  background: #E0D9D5;
+  background: #e0d9d5;
   text-align: center;
 }
 
@@ -140,10 +140,10 @@ a:hover {
 }
 
 .nav-item:last-child {
-  background-color: #FF5722;
+  background-color: #ff5722;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .navbar nav.desktop {
     display: none;
   }
@@ -164,7 +164,7 @@ a:hover {
 /********* LANDING ********/
 
 .landing-section {
-  background-color: #E0D9D5;
+  background-color: #e0d9d5;
   width: auto;
   height: auto;
   padding: 4rem 8vw 12rem 8vw;
@@ -227,7 +227,7 @@ a:hover {
 
 /********* LANDING MEDIA QUERY ********/
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .landing-section {
     display: flex;
     flex-direction: column;
@@ -289,7 +289,9 @@ a:hover {
     border-radius: 120px;
     margin: 1.5rem auto 0 auto;
     padding: 1rem;
-    background-color: #FF5722;
+    background-color: #ff5722;
+    transition: all 0.2s ease;
+    color: #292929;
   }
 
   .mobile-landing a {
@@ -297,7 +299,18 @@ a:hover {
     font-size: 1.25rem;
     line-height: 1.25rem;
     text-decoration: none;
-    color: black;
+    color: #292929;
+    transition: all 0.2s ease;
+  }
+
+  .mobile-landing:hover {
+    background-color: #292929;
+    transition: all 0.2s ease;
+  }
+
+  .mobile-landing a:hover {
+    color: #ff5722;
+    transition: all 0.2s ease;
   }
 
   .text-container {
@@ -323,7 +336,7 @@ a:hover {
 .about-section h1 {
   font-family: "Neue Plak";
   font-size: 4rem;
-  color: #E0D9D5;
+  color: #e0d9d5;
 }
 
 .about-text {
@@ -331,17 +344,17 @@ a:hover {
   font-size: 1.5rem;
   width: 48rem;
   padding: 1.25rem;
-  border: 3px solid #E0D9D5;
+  border: 3px solid #e0d9d5;
   border-radius: 10px;
   margin: 4rem 0 0 auto;
-  color: #E0D9D5;
+  color: #e0d9d5;
   background-color: #292929;
   line-height: 1.5;
 }
 
 /********* ABOUT MEDIA QUERY ********/
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .about-section {
     flex-direction: column;
     padding-top: 3.5rem;
@@ -906,12 +919,12 @@ a:hover {
   font-family: "Inter";
   font-size: 1.5rem;
   line-height: 1.5;
+  margin-bottom: 2.5rem;
 }
 
 .orange-arrow {
   margin-right: 2.5rem;
   align-self: flex-start;
-  margin-top: 2rem;
 }
 
 .level-up-showcase-link {
@@ -940,6 +953,7 @@ a:hover {
   text-decoration: none;
   color: #292929;
   transition: all 0.2s ease;
+  text-align: center;
 }
 
 .apply-here-btn:hover {
