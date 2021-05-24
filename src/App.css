@@ -389,6 +389,7 @@ a:hover {
   height: 100%;
   background-color: #E0D9D5;
   color: #292929;
+  overflow-x: hidden;
 }
 
 .overview-full {
