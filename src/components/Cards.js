@@ -1,6 +1,6 @@
 import "../App.css";
 import { Grid } from "@material-ui/core";
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState } from 'react';
 import Draggable from 'react-draggable';
 
 function Cards() {
@@ -13,10 +13,7 @@ function Cards() {
         setCursorY(e.pageY);
     });
 
-
     const [inHover, setHover] = useState("cursor");
-
-    
 
     return (
         <div className="cards" >
