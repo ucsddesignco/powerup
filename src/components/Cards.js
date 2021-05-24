@@ -26,7 +26,7 @@ function Cards() {
             ></div>
             
             <p className="cards-head-text">You could design or help markets for these San Diego small businesses:</p>
-            <Grid container spacing={4} className="top-cards">
+            <Grid container spacing={4} justify={"center"} className="top-cards">
                 <Grid item xs={12} sm={6} md={4}>
                     <div className="cards-item1"
                     onMouseEnter={() => setHover("item1-cursor")}
@@ -91,27 +91,7 @@ function Cards() {
                         
                     </div>
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                    <div className="cards-item4"
-                    onMouseEnter={() => setHover("item4-cursor")}
-                    onMouseLeave={() => setHover("cursor")}
-                    >
-                        <div className="cards-title">
-                            <p className="cards-title-text">Skinfolk</p>
-                            <div className="cards-line"></div>
-                        </div>
-                        <Draggable><div className="cards-item4-img"></div></Draggable>
-                        <div className="cards-contact">
-                            <a target="_blank" href="https://www.instagram.com/skinfolk13/?hl=en"><p className="contact-first-text">Instagram</p></a>
-                            <a target="_blank" href="https://www.myskinfolk.com/"><p className="contact-text">Website</p></a>
-                        </div>
-                        <ul className="cards-bullets">
-                            <li className="bullet-text">Black-owned organic cosmetics brand</li>
-                            <li className="bullet-text">Wants a website redesign (tbd)</li>
-                        </ul>
-                        
-                    </div>
-                </Grid>
+                
                 <Grid item xs={12} sm={6} md={4}>
                     <div className="cards-item5"
                     onMouseEnter={() => setHover("item5-cursor")}
