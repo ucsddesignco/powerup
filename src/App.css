@@ -80,8 +80,8 @@ body {
 }
 
 #sticky {
-	position: -webkit-sticky;
-	position: sticky;
+	position: fixed;
+  width: 85%;
 	top: 0;
   z-index: 999;
 }
@@ -129,7 +129,7 @@ a:hover {
 .mobile .nav-container {
   position: absolute;
   z-index: 11;
-  top: calc(70px + 6vw);
+  top: 87px;
   left: 0;
   width: 100%;
   height: calc(100% - 70px - 6vw);
@@ -147,6 +147,7 @@ a:hover {
 .nav-item {
   border-bottom: 2px solid #292929;
   padding: 0.5rem;
+  background-color: #e0d9d5;
 }
 
 .nav-item:first-child {
@@ -198,7 +199,7 @@ a:hover {
   background-color: #e0d9d5;
   width: auto;
   height: auto;
-  padding: 4rem 8vw 12rem 8vw;
+  padding: 12rem 8vw;
   color: #292929;
 }
 
@@ -309,7 +310,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .landing-section {
-    padding-top: 3.5rem;
+    padding-top: 8rem;
     padding-bottom: 3.5rem;
   }
 
