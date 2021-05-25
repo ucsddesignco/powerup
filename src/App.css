@@ -686,19 +686,23 @@ a:hover {
 }
 
 .contact-first-text {
-  font-size: 0.8rem;
+  font-size: 0.67rem;
   margin: 0.5rem 0.5rem 0.25rem 0;
   text-decoration: underline;
   font-family: "Inter";
   color: #e0d9d5;
+  letter-spacing: 0.02em;
+  text-underline-offset: 0.1em;
 }
 
 .contact-text {
-  font-size: 0.8rem;
+  font-size: 0.67rem;
   margin: 0.5rem 0.5rem 0.25rem;
   text-decoration: underline;
   font-family: "Inter";
   color: #e0d9d5;
+  letter-spacing: 0.02em;
+  text-underline-offset: 0.1em;
 }
 
 .top-cards {

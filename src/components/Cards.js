@@ -43,13 +43,13 @@ function Cards() {
             </Draggable>
             <div className="cards-contact">
               <a target="_blank" href="https://www.instagram.com/blendees/">
-                <p className="contact-first-text">Instagram</p>
+                <p className="contact-first-text">INSTAGRAM</p>
               </a>
               <a target="_blank" href="https://www.facebook.com/Blendees/">
-                <p className="contact-text">Facebook</p>
+                <p className="contact-text">FACEBOOK</p>
               </a>
               <a target="_blank" href="https://blendees.com/">
-                <p className="contact-text">Website</p>
+                <p className="contact-text">WEBSITE</p>
               </a>
             </div>
             <ul className="cards-bullets">
@@ -80,13 +80,13 @@ function Cards() {
                 target="_blank"
                 href="https://www.instagram.com/kinikoffee/?hl=en"
               >
-                <p className="contact-first-text">Instagram</p>
+                <p className="contact-first-text">INSTAGRAM</p>
               </a>
               <a
                 target="_blank"
                 href="https://www.facebook.com/Kini-Koffee-1213535565513951/"
               >
-                <p className="contact-text">Facebook</p>
+                <p className="contact-text">FACEBOOK</p>
               </a>
             </div>
             <ul className="cards-bullets">
@@ -113,10 +113,10 @@ function Cards() {
                 target="_blank"
                 href="https://www.instagram.com/furrylicious/?hl=en"
               >
-                <p className="contact-first-text">Instagram</p>
+                <p className="contact-first-text">INSTAGRAM</p>
               </a>
               <a target="_blank" href="https://www.furrylicious.com/">
-                <p className="contact-text">Website</p>
+                <p className="contact-text">WEBSITE</p>
               </a>
             </div>
             <ul className="cards-bullets">
@@ -143,7 +143,7 @@ function Cards() {
             </div>
             <div className="cards-contact">
               <a target="_blank" href="http://cutanddrybarbershop.com/">
-                <p className="contact-text">Website</p>
+                <p className="contact-text">WEBSITE</p>
               </a>
             </div>
             <ul className="cards-bullets">
@@ -167,10 +167,10 @@ function Cards() {
             </div>
             <div className="cards-contact">
               <a target="_blank" href="http://instagram.com/theofficialcafex">
-                <p className="contact-first-text">Instagram</p>
+                <p className="contact-first-text">INSTAGRAM</p>
               </a>
               <a target="_blank" href="https://www.byanybeans.org/">
-                <p className="contact-text">Website</p>
+                <p className="contact-text">WEBSITE</p>
               </a>
             </div>
             <ul className="cards-bullets">
