@@ -252,6 +252,10 @@ a:hover {
   margin: 1.5rem 0.75rem 0 0;
 }
 
+.text-container:first-child {
+  width: 16rem;
+}
+
 .text-container h3 {
   font-size: 1rem;
 }
@@ -281,7 +285,7 @@ a:hover {
     width: 30rem;
   }
 
-  .text-container {
+  .text-container, .text-container:first-child {
     width: 24rem;
   }
 
@@ -373,7 +377,7 @@ a:hover {
     transition: all 0.2s ease;
   }
 
-  .text-container {
+  .text-container, .text-container:first-child {
     width: 20rem;
   }
 
