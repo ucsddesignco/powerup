@@ -685,6 +685,10 @@ a:hover {
   align-items: center;
 }
 
+.cards-contact a {
+  text-decoration: none;
+}
+
 .contact-first-text {
   font-size: 0.67rem;
   margin: 0.5rem 0.5rem 0.25rem 0;
@@ -702,7 +706,7 @@ a:hover {
   font-family: "Inter";
   color: #e0d9d5;
   letter-spacing: 0.02em;
-  text-underline-offset: 0.1em;
+  text-underline-offset: 0.09em;
 }
 
 .top-cards {
