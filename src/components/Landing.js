@@ -20,7 +20,11 @@ function Landing() {
             <h2 className="top-text">
               This summer, Design Co is twisting tradition to debut our sequel
               to{" "}
-              <a href="https://www.levelup.ucsddesign.co/" target="_blank">
+              <a
+                className="level-up-showcase-link"
+                href="https://www.levelup.ucsddesign.co/"
+                target="_blank"
+              >
                 Level Up
               </a>
               .
