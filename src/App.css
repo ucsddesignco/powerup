@@ -859,7 +859,7 @@ a:hover {
     display: flex;
     height: 85px;
     width: 40px;
-    background-image: url("./assets/images/smoothie.svg");
+    background-image: url("./assets/images/cards-imgs/smoothie\ 1.png");
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -867,15 +867,11 @@ a:hover {
     margin-left: 70vw;
   }
 
-  .cards-item1-drag {
-    transform: translateX(70vw) rotate(-20deg) scaleX(-1);
-  }
-
   .cards-item2-img {
     display: flex;
     height: 76px;
     width: 90px;
-    background-image: url("./assets/images/kini.svg");
+    background-image: url("./assets/images/cards-imgs/coffeecup.png");
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -887,7 +883,7 @@ a:hover {
     display: flex;
     height: 55px;
     width: 90px;
-    background-image: url("./assets/images/leash.svg");
+    background-image: url("./assets/images/cards-imgs/dog\ leash\ 1.png");
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -911,7 +907,7 @@ a:hover {
     display: flex;
     height: 90px;
     width: 90px;
-    background-image: url("./assets/images/scissors.svg");
+    background-image: url("./assets/images/cards-imgs/scissors.png");
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -923,7 +919,7 @@ a:hover {
     display: flex;
     height: 96px;
     width: 60px;
-    background-image: url("./assets/images/cafex.svg");
+    background-image: url("./assets/images/cards-imgs/cafex.png");
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
