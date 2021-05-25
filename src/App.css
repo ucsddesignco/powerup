@@ -501,7 +501,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 2vw 0;
+  margin: 1vw 0;
 }
 
 .overview-blob {
@@ -511,7 +511,7 @@ a:hover {
   width: 412px;
   background-image: url("./assets/images/blob_border.svg");
   align-self: center;
-  margin-top: 15vw;
+  margin-top: 11vw;
   margin-right: 8vw;
   background-size: contain;
   background-repeat: no-repeat;
@@ -530,7 +530,7 @@ a:hover {
   }
 
   .overview-item {
-    margin: 2.5vw 0;
+    margin: 1vw 0;
   }
 
   .overview-text {

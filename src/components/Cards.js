@@ -25,7 +25,7 @@ function Cards() {
       ></div>
 
       <p className="cards-head-text">
-        You could design or help markets for these San Diego small businesses:
+        You could design or help market for these San Diego small businesses:
       </p>
       <Grid container spacing={4} justify={"center"} className="top-cards">
         <Grid item xs={12} sm={6} md={4}>
