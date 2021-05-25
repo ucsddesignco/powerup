@@ -143,7 +143,7 @@ function Cards() {
             </div>
             <div className="cards-contact">
               <a target="_blank" href="http://cutanddrybarbershop.com/">
-                <p className="contact-text">WEBSITE</p>
+                <p className="contact-first-text">WEBSITE</p>
               </a>
             </div>
             <ul className="cards-bullets">
