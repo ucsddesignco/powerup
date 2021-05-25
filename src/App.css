@@ -140,7 +140,7 @@ a:hover {
 }
 
 .nav-container a {
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-decoration: none;
 }
 
@@ -152,6 +152,7 @@ a:hover {
 
 .nav-item:first-child {
   margin-top: -50px;
+  border-top: 2px solid #292929;
 }
 
 .nav-item:last-child {
