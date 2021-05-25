@@ -145,6 +145,23 @@ a:hover {
   background-color: #ff5722;
 }
 
+@media (max-width: 1080px) {
+  .navbar a {
+    font-size: 1.1rem;
+    margin-right: 0rem;
+    padding: 0.5rem;
+  }
+
+  .nav-title {
+    font-size: 1.25rem;
+    line-height: 40px;
+  }
+
+  #ball-logo {
+    width: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar nav.desktop {
     display: none;
@@ -191,6 +208,12 @@ a:hover {
 
 .top-text a {
   color: black;
+}
+
+.top-text a:hover {
+  transition: 0.2s;
+  opacity: 1;
+  color: #ff5722;
 }
 
 #logo {
