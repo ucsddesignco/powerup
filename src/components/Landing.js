@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import DesignCo from "../assets/images/dco-logo.svg";
 import Arrow from "../assets/images/arrow.svg";
 import Shop from "../assets/images/coffee-shop.png";
@@ -7,7 +6,6 @@ import Shop from "../assets/images/coffee-shop.png";
 function Landing() {
   return (
     <div id="landing">
-      <Navbar />
       <div className="landing-section">
         <div className="right" id="shop">
           <img src={Shop} alt="Coffee Shop" />

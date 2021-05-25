@@ -1,5 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
+import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
 import FAQStructure from "./components/FAQStructure";
@@ -26,6 +27,7 @@ function App() {
           top: cursorY + "px",
         }}
       ></div> */}
+      <Navbar />
       <Landing />
       <About />
       <Overview></Overview>

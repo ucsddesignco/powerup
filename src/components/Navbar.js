@@ -19,7 +19,7 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar" id="sticky">
       <span className="nav-title">
         <img id="ball-logo" src={Ball} alt="Ball Logo" /> Power Up
       </span>
