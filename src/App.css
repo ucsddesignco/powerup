@@ -39,25 +39,24 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @font-face {
-font-family: "Neue Plak";
-src: url("./assets/fonts/NeuePlak-ExtendedBold.woff") format("woff");
-font-weight: bold;
+  font-family: "Neue Plak";
+  src: url("./assets/fonts/NeuePlak-ExtendedBold.woff") format("woff");
+  font-weight: bold;
 }
 
 @font-face {
-font-family: "NB International Regular";
-src: url("./assets/fonts/NB-International-Pro-Regular.woff")
-  format("woff");
+  font-family: "NB International Regular";
+  src: url("./assets/fonts/NB-International-Pro-Regular.woff") format("woff");
 }
 
 @font-face {
-font-family: "NB International Mono";
-src: url("./assets/fonts/NBInternationalMonoWebfont.woff") format("woff");
+  font-family: "NB International Mono";
+  src: url("./assets/fonts/NBInternationalMonoWebfont.woff") format("woff");
 }
 
 @font-face {
-font-family: "NB International Light";
-src: url("./assets/fonts/NBInternationalPro-Lig.woff") format("woff");
+  font-family: "NB International Light";
+  src: url("./assets/fonts/NBInternationalPro-Lig.woff") format("woff");
 }
 
 /********* NAVBAR ********/
@@ -389,7 +388,7 @@ a:hover {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #E0D9D5;
+  background-color: #e0d9d5;
   color: #292929;
   overflow-x: hidden;
 }
@@ -450,7 +449,6 @@ a:hover {
   margin-right: 8vw;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 .overview-cols {
@@ -462,36 +460,37 @@ a:hover {
 /********* Overview Media Query ********/
 @media (max-width: 1080px) {
   .overview-blob {
-      display: none;
+    display: none;
   }
 
   .overview-item {
-      margin: 1vw 0;
+    margin: 2.5vw 0;
   }
 
   .overview-text {
-      margin-right: 8vw;
+    margin-right: 8vw;
+    font-size: 1.75rem;
   }
 }
 
 @media (max-width: 768px) {
   .overview-blob {
-      display: none;
+    display: none;
   }
 
   .overview-arrow {
-      height: 50px;
-      width: 50px;
+    height: 50px;
+    width: 50px;
   }
 
   .overview-text {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .overview-header-text {
-      font-size: 3rem;
-      padding-top: 14vw;
-      margin-bottom: 4vw;
+    font-size: 3rem;
+    padding-top: 14vw;
+    margin-bottom: 4vw;
   }
 
   .overview-cols {
@@ -499,7 +498,7 @@ a:hover {
   }
 
   .overview-item {
-    margin: 4vw 0;
+    margin: 2vw 0;
   }
 }
 
@@ -507,13 +506,13 @@ a:hover {
 .cards {
   margin: 0;
   padding: 0;
-  background-color: #2C2C2C;
-  color: #E0D9D5;
+  background-color: #2c2c2c;
+  color: #e0d9d5;
   overflow-x: hidden;
 }
 
 .cards-item1 {
-  border: 3px solid #E0D9D5;
+  border: 3px solid #e0d9d5;
   border-radius: 10px;
 }
 
@@ -522,7 +521,7 @@ a:hover {
 }
 
 .cards-item2 {
-  border: 3px solid #E0D9D5;
+  border: 3px solid #e0d9d5;
   border-radius: 10px;
 }
 
@@ -531,7 +530,7 @@ a:hover {
 }
 
 .cards-item3 {
-  border: 3px solid #E0D9D5;
+  border: 3px solid #e0d9d5;
   border-radius: 10px;
 }
 
@@ -540,7 +539,7 @@ a:hover {
 }
 
 .cards-item4 {
-  border: 3px solid #E0D9D5;
+  border: 3px solid #e0d9d5;
   border-radius: 10px;
 }
 
@@ -549,7 +548,7 @@ a:hover {
 }
 
 .cards-item5 {
-  border: 3px solid #E0D9D5;
+  border: 3px solid #e0d9d5;
   border-radius: 10px;
 }
 
@@ -558,7 +557,7 @@ a:hover {
 }
 
 .cards-item6 {
-  border: 3px solid #E0D9D5;
+  border: 3px solid #e0d9d5;
   border-radius: 10px;
 }
 
@@ -598,7 +597,7 @@ a:hover {
   height: 3px;
   width: 300px;
   background-image: url("./assets/images/line.svg");
-  margin: 1.5rem 1.5rem 0rem
+  margin: 1.5rem 1.5rem 0rem;
 }
 
 .cards-contact {
@@ -609,19 +608,19 @@ a:hover {
 }
 
 .contact-first-text {
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 0.5rem 0.5rem 0.25rem 0;
   text-decoration: underline;
   font-family: "Inter";
-  color: #E0D9D5;
+  color: #e0d9d5;
 }
 
 .contact-text {
-  font-size: .8rem;
-  margin: .5rem .5rem .25rem;
+  font-size: 0.8rem;
+  margin: 0.5rem 0.5rem 0.25rem;
   text-decoration: underline;
   font-family: "Inter";
-  color: #E0D9D5;
+  color: #e0d9d5;
 }
 
 .top-cards {
@@ -636,7 +635,6 @@ a:hover {
   font-size: 0.8rem;
   margin: 0.5rem 0.75rem 0.5rem 1.9rem;
   font-family: "Inter";
-  
 }
 
 .cards-red {
@@ -684,7 +682,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .item3-cursor {
   top: 0;
@@ -766,16 +763,15 @@ a:hover {
 }
 @media (max-width: 768px) {
   .cards-head-text {
-      padding-top: 12vw;
+    padding-top: 12vw;
   }
 
   .top-cards {
-      padding-bottom: 12vw;
+    padding-bottom: 12vw;
   }
 }
 
 @media (max-width: 480px) {
-
   .cursor {
     display: none;
   }
@@ -805,11 +801,11 @@ a:hover {
   }
 
   .cards-title-large-text {
-      white-space: nowrap;
+    white-space: nowrap;
   }
   .cards-head-text {
-      font-size: 1rem;
-      line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .cards-item1-img {
@@ -887,7 +883,6 @@ a:hover {
     z-index: 300;
     margin-left: 60vw;
   }
-
 }
 
 /********* Why Apply ********/
