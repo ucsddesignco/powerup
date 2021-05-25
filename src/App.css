@@ -268,7 +268,6 @@ a:hover {
   }
 }
 
-
 @media (max-width: 768px) {
   .landing-section {
     padding-top: 3.5rem;
@@ -959,7 +958,7 @@ a:hover {
 
 .level-up-showcase-link:hover {
   transition: 0.2s;
-  opacity: 0.8;
+  opacity: 1;
   color: #ff5722;
 }
 
