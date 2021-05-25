@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: #e0d9d5;
 }
 
 * {
@@ -655,7 +656,7 @@ a:hover {
   z-index: 999;
   width: 155px;
   height: 155px;
-  opacity: 100%;
+  opacity: 1 !important;
   background: url("./assets/images/smoothie.svg");
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -673,7 +674,7 @@ a:hover {
   z-index: 999;
   width: 155px;
   height: 155px;
-  opacity: 100%;
+  opacity: 1 !important;
   background: url("./assets/images/kini.svg");
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -692,7 +693,7 @@ a:hover {
   z-index: 999;
   width: 155px;
   height: 155px;
-  opacity: 100%;
+  opacity: 1 !important;
   background: url("./assets/images/leash.svg");
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -710,7 +711,7 @@ a:hover {
   z-index: 999;
   width: 155px;
   height: 155px;
-  opacity: 100%;
+  opacity: 1 !important;
   background: url("./assets/images/lipstick.svg");
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -728,7 +729,7 @@ a:hover {
   z-index: 999;
   width: 155px;
   height: 155px;
-  opacity: 100%;
+  opacity: 1 !important;
   background: url("./assets/images/scissors.svg");
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -746,7 +747,7 @@ a:hover {
   z-index: 999;
   width: 155px;
   height: 155px;
-  opacity: 100%;
+  opacity: 1 !important;
   background: url("./assets/images/cafex.svg");
   transform: translate(-50%, -50%);
   justify-content: center;
