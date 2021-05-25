@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import DesignCo from "../assets/images/dco-logo.svg";
 import Arrow from "../assets/images/arrow.svg";
-import Shop from "../assets/images/coffee-shop.svg";
+import Shop from "../assets/images/coffee-shop.png";
 
 function Landing() {
   return (

@@ -7,6 +7,7 @@ body {
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .cursor {
@@ -136,7 +137,7 @@ a:hover {
 }
 
 .nav-item:first-child {
-  margin-top: -70px;
+  margin-top: -50px;
 }
 
 .nav-item:last-child {
@@ -342,7 +343,7 @@ a:hover {
 .about-text {
   font-family: "Inter";
   font-size: 1.5rem;
-  width: 48rem;
+  width: 65%;
   padding: 1.25rem;
   border: 3px solid #e0d9d5;
   border-radius: 10px;

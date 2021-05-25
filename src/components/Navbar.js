@@ -12,16 +12,20 @@ function Navbar() {
         setMenuOpen(!menuOpen);
     }
 
+    const closeMenu = () => {
+        setMenuOpen(false);
+    }
+
     return (
         <div className="navbar">
             <span className="nav-title">
                 <img id="ball-logo" src={Ball} alt="Ball Logo" /> Power Up
             </span>
             <nav className="desktop">
-                <a href="#">Overview</a>
-                <a href="#">Partners</a>
-                <a href="#">Benefits</a>
-                <a href="#">FAQ</a>
+                <a href="#overview-section">Overview</a>
+                <a href="#partners-section">Partners</a>
+                <a href="#whyapply-section">Benefits</a>
+                <a href="#faq">FAQ</a>
                 <a id="button" href="https://forms.gle/DpMo8EURvds47tmE8" target="_blank">
                     Apply Here
                 </a>
@@ -40,19 +44,19 @@ function Navbar() {
                 menuOpen &&
                 <div className="nav-container">
                     <div className="nav-item">
-                        <a href="#">Overview</a>
+                        <a href="#overview-section" onClick={() => closeMenu()}>Overview</a>
                     </div>
                     <div className="nav-item">
-                        <a href="#">Partners</a>
+                        <a href="#partners-section" onClick={() => closeMenu()}>Partners</a>
                     </div>
                     <div className="nav-item">
-                        <a href="#">Benefits</a>
+                        <a href="#whyapply-section" onClick={() => closeMenu()}>Benefits</a>
                     </div>
                     <div className="nav-item">
-                        <a href="#">FAQ</a>
+                        <a href="#faq" onClick={() => closeMenu()}>FAQ</a>
                     </div>
                     <div className="nav-item">
-                        <a href="https://forms.gle/DpMo8EURvds47tmE8" target="_blank">
+                        <a href="https://forms.gle/DpMo8EURvds47tmE8" target="_blank" onClick={() => closeMenu()}>
                             Apply
                         </a>
                     </div>

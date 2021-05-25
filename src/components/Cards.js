@@ -16,7 +16,7 @@ function Cards() {
     const [inHover, setHover] = useState("cursor");
 
     return (
-        <div className="cards" >
+        <div className="cards" id="partners-section">
             <div
                 className={inHover}
                 style={{

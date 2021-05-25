@@ -2,7 +2,7 @@ import "../App.css";
 
 function Overview() {
     return (
-        <div className="overview">
+        <div className="overview" id="overview-section">
             <div className="overview-cols">
                 <div className="overview-full">
                     <p className="overview-header-text">Overview</p>
