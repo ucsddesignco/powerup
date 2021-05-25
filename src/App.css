@@ -260,6 +260,10 @@ a:hover {
   font-size: 1rem;
 }
 
+#shop img {
+  width: 36vw;
+}
+
 .right {
   float: right;
   vertical-align: center;
@@ -300,6 +304,10 @@ a:hover {
   #shop {
     order: 2;
     margin: 1.5rem auto;
+  }
+
+  #shop img {
+    width: 50vw;
   }
 
   #bottom {
