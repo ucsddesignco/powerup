@@ -57,7 +57,7 @@ function Cards() {
                 Black-owned smoothie and juice bar
               </li>
               <li className="bullet-text">
-                Needs help in creating a market plan
+                Needs a website redesign & marketing plan
               </li>
             </ul>
           </div>
@@ -123,7 +123,7 @@ function Cards() {
               <li className="bullet-text">
                 Black-owned pet care/dog training classes
               </li>
-              <li className="bullet-text">Needs _________</li>
+              <li className="bullet-text">Needs a marketing plan/social media revamp</li>
             </ul>
           </div>
         </Grid>
