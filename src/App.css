@@ -189,7 +189,7 @@ a:hover {
 
   .nav-item:first-child {
     margin-top: -50px;
-  }  
+  }
 }
 
 /********* LANDING ********/
@@ -728,7 +728,6 @@ a:hover {
   color: #e0d9d5;
   letter-spacing: 0.02em;
   text-underline-offset: 0.09em;
-  
 }
 
 .top-cards {
@@ -1052,8 +1051,8 @@ a:hover {
   border-radius: 120px;
   font-family: "Neue Plak";
   font-size: 1.25rem;
-  padding: 1rem 1rem 1.25rem 1rem;
-  width: 154px;
+  padding: 0.8rem 1rem 1.25rem 1rem;
+  width: 10rem;
   margin: 0 auto;
   margin-top: 2.5rem;
   display: none;
@@ -1065,12 +1064,10 @@ a:hover {
 
 .apply-here-btn:hover {
   background-color: #292929;
-  border: 1px solid #292929;
   border-radius: 120px;
   font-family: "Neue Plak";
   font-size: 1.25rem;
-  padding: 1rem 1rem 1.25rem 1rem;
-  width: 154px;
+  width: 10rem;
   margin: 0 auto;
   margin-top: 2.5rem;
   text-decoration: none;

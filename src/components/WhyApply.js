@@ -57,7 +57,7 @@ function WhyApply() {
       <div></div>
       <a
         className="apply-here-btn"
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        href="https://forms.gle/DpMo8EURvds47tmE8"
         target="_blank"
       >
         Apply Here
