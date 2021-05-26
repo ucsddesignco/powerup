@@ -149,10 +149,6 @@ a:hover {
   background-color: #e0d9d5;
 }
 
-.nav-item:first-child {
-  margin-top: -12vw;
-}
-
 .nav-item:last-child {
   background-color: #ff5722;
 }
@@ -190,6 +186,16 @@ a:hover {
   #ball-logo {
     width: 40px;
   }
+
+  .nav-item:first-child {
+    margin-top: -50px;
+  }  
+}
+
+@media (max-width: 400px) {
+  .nav-item:first-child {
+    margin-top: -48px;
+  } 
 }
 
 /********* LANDING ********/
