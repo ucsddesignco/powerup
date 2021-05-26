@@ -126,11 +126,11 @@ function Cards() {
             <div className="cards-contact">
               <a
                 target="_blank"
-                href="https://www.instagram.com/furrylicious/?hl=en"
+                href="https://www.instagram.com/furliciouspetssd/?hl=en"
               >
                 <p className="contact-first-text">INSTAGRAM</p>
               </a>
-              <a target="_blank" href="https://www.furrylicious.com/">
+              <a target="_blank" href="https://www.furliciousco.com/">
                 <p className="contact-text">WEBSITE</p>
               </a>
             </div>
