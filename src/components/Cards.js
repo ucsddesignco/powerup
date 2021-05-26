@@ -106,7 +106,7 @@ function Cards() {
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Women-led and run coffee shop</li>
-              <li className="bullet-text">Needs help in creating a website/app and marketing</li>
+              <li className="bullet-text">Needs help in creating a website/app, marketing, and/or expanding the brand</li>
             </ul>
           </div>
         </Grid>
