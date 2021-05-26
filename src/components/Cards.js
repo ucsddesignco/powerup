@@ -51,6 +51,9 @@ function Cards() {
               <a target="_blank" href="https://blendees.com/">
                 <p className="contact-text">WEBSITE</p>
               </a>
+              <a target="_blank" href="https://www.yelp.com/biz/blendees-el-cajon-3">
+                <p className="contact-text">YELP</p>
+              </a>
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">
@@ -88,10 +91,22 @@ function Cards() {
               >
                 <p className="contact-text">FACEBOOK</p>
               </a>
+              <a
+                target="_blank"
+                href="https://www.tiktok.com/@kinikoffee?lang=en"
+              >
+                <p className="contact-text">TIKTOK</p>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.yelp.com/biz/kini-koffee-del-mar-2"
+              >
+                <p className="contact-text">YELP</p>
+              </a>
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Women-led and run coffee shop</li>
-              <li className="bullet-text">Needs help in creating a website</li>
+              <li className="bullet-text">Needs help in creating a website/app and marketing</li>
             </ul>
           </div>
         </Grid>
@@ -145,10 +160,13 @@ function Cards() {
               <a target="_blank" href="http://cutanddrybarbershop.com/">
                 <p className="contact-first-text">WEBSITE</p>
               </a>
+              <a target="_blank" href="https://www.yelp.com/biz/cut-and-dry-barbershop-san-diego">
+                <p className="contact-text">YELP</p>
+              </a>
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Asian American-owned barber shop</li>
-              <li className="bullet-text">Needs _________</li>
+              <li className="bullet-text">Needs social media revamp and/or website redesign</li>
             </ul>
           </div>
         </Grid>

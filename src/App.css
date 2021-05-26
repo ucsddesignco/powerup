@@ -604,6 +604,7 @@ a:hover {
 .cards-item1 {
   border: 3px solid #e0d9d5;
   border-radius: 10px;
+  min-height: 10rem;
 }
 
 .cards-item1-img {
@@ -613,6 +614,7 @@ a:hover {
 .cards-item2 {
   border: 3px solid #e0d9d5;
   border-radius: 10px;
+  min-height: 10rem;
 }
 
 .cards-item2-img {
@@ -622,6 +624,7 @@ a:hover {
 .cards-item3 {
   border: 3px solid #e0d9d5;
   border-radius: 10px;
+  min-height: 10rem;
 }
 
 .cards-item3-img {
@@ -631,6 +634,7 @@ a:hover {
 .cards-item4 {
   border: 3px solid #e0d9d5;
   border-radius: 10px;
+  min-height: 10rem;
 }
 
 .cards-item4-img {
@@ -640,6 +644,7 @@ a:hover {
 .cards-item5 {
   border: 3px solid #e0d9d5;
   border-radius: 10px;
+  min-height: 10rem;
 }
 
 .cards-item5-img {
@@ -649,6 +654,7 @@ a:hover {
 .cards-item6 {
   border: 3px solid #e0d9d5;
   border-radius: 10px;
+  min-height: 10rem;
 }
 
 .cards-item6-img {
@@ -695,6 +701,7 @@ a:hover {
   flex-direction: row;
   margin-left: 1rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .cards-contact a {
@@ -702,16 +709,18 @@ a:hover {
 }
 
 .contact-first-text {
+  position: relative;
   font-size: 0.67rem;
   margin: 0.5rem 0.5rem 0.25rem 0;
   text-decoration: underline;
   font-family: "Inter";
   color: #e0d9d5;
   letter-spacing: 0.02em;
-  text-underline-offset: 0.1em;
+  text-underline-offset: 0.09em;
 }
 
 .contact-text {
+  position: relative;
   font-size: 0.67rem;
   margin: 0.5rem 0.5rem 0.25rem;
   text-decoration: underline;
@@ -719,6 +728,7 @@ a:hover {
   color: #e0d9d5;
   letter-spacing: 0.02em;
   text-underline-offset: 0.09em;
+  
 }
 
 .top-cards {
