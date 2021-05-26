@@ -26,23 +26,3 @@ function Footer() {
 }
 
 export default Footer;
-
-{
-  /* <div className="footer">
-      <p className="signature">
-        <span className="footer-text">
-          Made with
-          <img className="footer-logo" src={Heart} alt="Love Logo" />
-        </span>
-        <img
-          className="footer-logo footer-logo-dco"
-          src={DcoLogoDark}
-          alt="Design Co Logo"
-        />
-      </p>
-
-      <a id="email" className="footer-text" href="mailto:hello@ucsddesign.co">
-        hello@ucsddesign.co
-      </a>
-    </div> */
-}

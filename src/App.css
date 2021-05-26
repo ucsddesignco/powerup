@@ -224,7 +224,7 @@ a:hover {
 }
 
 .top-text a:hover {
-  transition: 0.2s;
+  transition: all 0.2s ease;
   opacity: 1;
   color: #ff5722;
 }
@@ -1027,11 +1027,11 @@ a:hover {
 .level-up-showcase-link {
   text-decoration: underline;
   color: #292929;
-  transition: 0.2s;
+  transition: all 0.2s ease;
 }
 
 .level-up-showcase-link:hover {
-  transition: 0.2s;
+  transition: all 0.2s ease;
   opacity: 1;
   color: #ff5722;
 }
@@ -1238,11 +1238,13 @@ a:hover {
 .footer-text {
   text-decoration: none;
   color: #292929;
+  transition: all 0.2s ease;
 }
 
 .footer-text:hover {
   text-decoration: underline;
   color: #ff5722;
+  transition: all 0.2s ease;
 }
 
 @media (max-width: 565px) {
