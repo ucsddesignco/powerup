@@ -192,6 +192,13 @@ a:hover {
   }
 }
 
+
+@media (max-width: 400px) {
+  .nav-item:first-child {
+    margin-top: -48px;
+  }
+}
+
 /********* LANDING ********/
 
 .landing-section {
