@@ -79,9 +79,9 @@ body {
 }
 
 #sticky {
-	position: fixed;
+  position: fixed;
   width: 85%;
-	top: 0;
+  top: 0;
   z-index: 999;
 }
 
@@ -289,7 +289,8 @@ a:hover {
     width: 30rem;
   }
 
-  .text-container, .text-container:first-child {
+  .text-container,
+  .text-container:first-child {
     width: 24rem;
   }
 
@@ -385,7 +386,8 @@ a:hover {
     transition: all 0.2s ease;
   }
 
-  .text-container, .text-container:first-child {
+  .text-container,
+  .text-container:first-child {
     width: 20rem;
   }
 
@@ -1092,7 +1094,7 @@ a:hover {
 
 #faq {
   background: #292929;
-  padding-top: 7.5rem;
+  padding-top: 4.5rem;
 }
 
 #faq:target {
@@ -1119,10 +1121,11 @@ a:hover {
 }
 
 .faqs .faq {
-  border: 1.5px solid #e0d9d5;
+  border: 0.5px solid #e0d9d5;
   border-left: 0px;
   border-right: 0px;
   padding: 1.5rem 8vw;
+  cursor: pointer;
 }
 
 .faqs .faq .faq-question {
@@ -1181,6 +1184,10 @@ a:hover {
   }
   .faq-title {
     font-size: 3rem;
+    letter-spacing: 0.05rem;
+    margin: 0 auto;
+    -webkit-text-stroke: 1px #e0d9d5;
+    color: #292929;
   }
   .faqs .faq .faq-question {
     font-size: 1.25rem;
@@ -1200,7 +1207,8 @@ a:hover {
   background: #e0d9d5;
   padding: 0rem 8vw 2rem 8vw;
   color: #292929;
-  border-top: 1.5rem solid #e0d9d5;
+  border-top: 0.75px solid #e0d9d5;
+  padding-top: 1.75rem;
   font-family: "Inter";
   align-items: center;
   font-size: 1rem;

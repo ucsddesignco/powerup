@@ -1,0 +1,49 @@
+<svg width="1440" height="846" viewBox="0 0 1440 846" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="1440" height="846" fill="#292929"/>
+<path d="M607.165 -414V571.576L349.839 1086" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1430.6 -414V571.575L1475 586.395" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1312.97 -414V571.576L1475 636.491" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1195.33 -414V571.575L1475 711.651" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1077.7 -414V571.575L1475 836.941" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M842.432 -414V571.576L1098.88 1086" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M489.528 -414V571.576L-24.6802 1086" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M371.896 -414V571.576L-25 836.365" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M254.269 -414V571.576L-24.9982 711.326" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M136.636 -414V571.575L-24.9982 636.288" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.001 -414V571.576L-24.9997 586.256" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M724.797 -414V571.576L724.353 1086" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M960.067 -414V571.576L1475.33 1086" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-24.6802 101.039H1475.33" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-24.6802 218.673H1475.33" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-24.6802 336.306H1475.33" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-24.6802 453.94H1475.33" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-20.5971 571.575H1451.88" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 571.575H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 590.751H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 613.326H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 640.297H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 834.03H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 673.079H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 713.778H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1475 765.651H-25" stroke="#E0D9D5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<g style="mix-blend-mode:color-dodge">
+<ellipse cx="204.31" cy="606.224" rx="248.31" ry="259.224" fill="#FF5722"/>
+<ellipse cx="204.31" cy="606.224" rx="248.31" ry="259.224" fill="url(#paint0_radial)"/>
+<ellipse cx="204.31" cy="606.224" rx="248.31" ry="259.224" fill="url(#paint1_radial)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(301.231 740.854) rotate(177.536) scale(483.795 473.034)">
+<stop/>
+<stop offset="0.973958" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120.205 488.319) rotate(77.428) scale(386.394 371.701)">
+<stop stop-color="#E0D6D5"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0">
+<rect width="1440" height="846" fill="white"/>
+</clipPath>
+</defs>
+</svg>

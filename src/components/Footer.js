@@ -1,6 +1,6 @@
 import React from "react";
 import Heart from "../assets/images/heart.svg";
-import DcoLogoOrange from "../assets/images/dco-logo-orange.svg";
+import DcoLogoDark from "../assets/images/dco-logo.svg";
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
         </span>
         <img
           className="footer-logo footer-logo-dco"
-          src={DcoLogoOrange}
+          src={DcoLogoDark}
           alt="Design Co Logo"
         />
       </p>

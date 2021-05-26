@@ -6,7 +6,7 @@ function Accordion() {
     {
       question: "Who is eligible?",
       answer:
-        "Power Up is open to current UCSD undergraduates and recent 2021 graduates. We are prioritizing underrepresented design students who identify as BIPOC, low-income, first-gen, and/or persons with disabilities and have some knowledge of the design process and experience working in a collaborative environment.",
+        "Power Up applications are open to all current UCSD undergraduates and recent 2021 graduates. Please note that we are prioritizing underrepresented students who identify as BIPOC, first-gen, low-income, persons with disabilities and/or part of other underrepresented groups in the tech and design industry. Applicants should also have some knowledge of the design process and experience working in a collaborative environment.",
       open: false,
     },
     {
@@ -18,7 +18,7 @@ function Accordion() {
     {
       question: "How many people will be accepted?",
       answer:
-        "Around 30 people will be admitted into the program with 6 teams total and 4-5 people per team.",
+        "Around 20 people will be admitted into the program with 5 teams total and 4-5 people per team.",
       open: false,
     },
     {
@@ -35,7 +35,7 @@ function Accordion() {
     {
       question: "What roles are available?",
       answer:
-        "You can apply to a max of 2 of the following: UX researcher, product designer, visual designer, web developer, or marketing strategist.",
+        "You can apply to a max of 2 of the following: UX researcher, UI/UX designer, visual designer, content strategist, web builder, or marketing strategist.",
       open: false,
     },
     {
