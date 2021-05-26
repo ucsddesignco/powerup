@@ -150,8 +150,7 @@ a:hover {
 }
 
 .nav-item:first-child {
-  margin-top: -50px;
-  border-top: 2px solid #292929;
+  margin-top: -12vw;
 }
 
 .nav-item:last-child {
@@ -291,7 +290,10 @@ a:hover {
 
   .text-container,
   .text-container:first-child {
-    width: 24rem;
+    width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .text-container h3 {
