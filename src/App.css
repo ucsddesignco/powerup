@@ -1252,8 +1252,8 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
-  .footer-right {
-    margin-top: 0.6rem;
+  .footer-text {
+    margin-top: 1rem;
   }
 }
 
@@ -1261,5 +1261,8 @@ a:hover {
   .footer-logo-dco {
     transform: scale(0.6);
     margin-left: -2.2rem;
+  }
+  .footer-text {
+    margin-top: 0.8rem;
   }
 }
