@@ -136,7 +136,7 @@ function Cards() {
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">
-                Black-owned pet care & dog training classes
+                Black-owned pet care & dog training 
               </li>
               <li className="bullet-text">Needs a marketing plan/social media revamp</li>
             </ul>
