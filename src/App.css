@@ -1203,51 +1203,59 @@ a:hover {
 /********* Footer ********/
 .footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  background: #e0d9d5;
-  padding: 0rem 8vw 2rem 8vw;
-  color: #292929;
-  border-top: 0.75px solid #e0d9d5;
-  padding-top: 1.75rem;
-  font-family: "Inter";
-  align-items: center;
-  font-size: 1rem;
-}
-
-#email {
+  padding: 2rem 8vw 2rem 8vw;
   font-family: "Inter";
 }
 
-.signature img {
-  display: inline-block;
+.footer-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-left-span {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-left-span p {
+  width: 100%;
+}
+
+.footer-logo-heart {
+  transform: scale(0.8);
   margin-left: 0.5rem;
 }
 
-.footer a {
-  color: inherit;
+.footer-logo-dco {
+  transform: scale(0.7);
+  margin-left: -1.2rem;
 }
 
-.footer-logo {
-  height: 18px;
+.footer-text {
+  text-decoration: none;
+  color: #292929;
 }
 
-.signature {
-  display: flex;
-  align-items: center;
-  font-family: "Inter";
+.footer-text:hover {
+  text-decoration: underline;
+  color: #ff5722;
 }
 
-.signature span {
-  display: flex;
-}
-
-/**** Footer Media Query ***/
-@media (max-width: 992px) {
+@media (max-width: 565px) {
   .footer {
-    flex-wrap: wrap;
-    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
   }
-  .footer a {
-    margin-top: -0.4rem;
+  .footer-right {
+    margin-top: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo-dco {
+    transform: scale(0.6);
+    margin-left: -2.2rem;
   }
 }
