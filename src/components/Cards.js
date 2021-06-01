@@ -197,9 +197,6 @@ function Cards() {
             <ul className="cards-bullets">
               <li className="bullet-text">Black, women-owned coffee shop</li>
               <li className="bullet-text">
-                Needs marketing/web design assistance
-              </li>
-              <li className="bullet-text">
                 Relaunch of e-commerce platform
               </li>
             </ul>
