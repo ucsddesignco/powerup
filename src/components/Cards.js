@@ -200,7 +200,7 @@ function Cards() {
                 Needs marketing/web design assistance
               </li>
               <li className="bullet-text">
-                relaunch of e-commerce platform
+                Relaunch of e-commerce platform
               </li>
             </ul>
           </div>
