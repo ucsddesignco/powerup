@@ -180,7 +180,7 @@ function Cards() {
               <div className="cards-item6-img"></div>
             </Draggable>
             <div className="cards-title">
-              <p className="cards-title-text">Cafe X</p>
+              <p className="cards-title-really-large-text">Cafe X: By Any Beans Necessary</p>
               <div className="cards-line"></div>
             </div>
             <div className="cards-contact">
@@ -190,11 +190,17 @@ function Cards() {
               <a target="_blank" href="https://www.byanybeans.org/">
                 <p className="contact-text">WEBSITE</p>
               </a>
+              <a target="_blank" href="https://www.yelp.com/biz/cafe-x-by-any-beans-necessary-san-diego">
+                <p className="contact-text">YELP</p>
+              </a>
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Black, women-owned coffee shop</li>
               <li className="bullet-text">
                 Needs marketing/web design assistance
+              </li>
+              <li className="bullet-text">
+                relaunch of e-commerce platform
               </li>
             </ul>
           </div>
