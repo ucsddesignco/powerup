@@ -163,6 +163,7 @@ function Cards() {
               <a target="_blank" href="https://www.yelp.com/biz/cut-and-dry-barbershop-san-diego">
                 <p className="contact-text">YELP</p>
               </a>
+              
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Asian American-owned barber shop</li>
@@ -181,11 +182,14 @@ function Cards() {
             </Draggable>
             <div className="cards-title">
               <p className="cards-title-really-large-text">Cafe X: By Any Beans Necessary</p>
-              <div className="cards-line"></div>
+              <div className="cards-large-line"></div>
             </div>
             <div className="cards-contact">
               <a target="_blank" href="http://instagram.com/theofficialcafex">
                 <p className="contact-first-text">INSTAGRAM</p>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/byanybeans">
+                <p className="contact-text">FACEBOOK</p>
               </a>
               <a target="_blank" href="https://www.byanybeans.org/">
                 <p className="contact-text">WEBSITE</p>
@@ -197,7 +201,7 @@ function Cards() {
             <ul className="cards-bullets">
               <li className="bullet-text">Black, women-owned coffee shop</li>
               <li className="bullet-text">
-                Relaunch of e-commerce platform
+              Needs website redesign, relaunch of e-commerce platform, marketing plan, branding assistance, and/or social media revamp
               </li>
             </ul>
           </div>
