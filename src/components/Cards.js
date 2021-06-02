@@ -201,7 +201,7 @@ function Cards() {
             <ul className="cards-bullets">
               <li className="bullet-text">Black, women-owned coffee shop</li>
               <li className="bullet-text">
-              Needs website redesign, relaunch of e-commerce platform, marketing plan, branding assistance, and/or social media revamp
+              Needs help with e-commerce website relaunch, marketing plan for new products, and social media revamp
               </li>
             </ul>
           </div>
