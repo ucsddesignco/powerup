@@ -16,7 +16,7 @@ function Landing() {
           </div>
           <div className="top-container">
             <h2 className="top-text">
-              This summer, Design Co is twisting tradition to debut our sequel
+              Design Co twisted tradition to debut our sequel
               to{" "}
               <a
                 className="level-up-showcase-link"
@@ -25,7 +25,7 @@ function Landing() {
               >
                 Level Up
               </a>
-              .
+              . Check out what the Power Uppers worked on below!
             </h2>
           </div>
           <div className="middle-section">
@@ -40,11 +40,6 @@ function Landing() {
           <div className="text-container">
             <h3>JUNE - SEPTEMBER 2021</h3>
           </div>
-        </div>
-        <div className="mobile-landing">
-          <a href="https://forms.gle/DpMo8EURvds47tmE8" target="_blank">
-            Apply Here
-          </a>
         </div>
       </div>
     </div>

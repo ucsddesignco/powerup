@@ -25,16 +25,8 @@ function Navbar() {
       </span>
       <nav className="desktop">
         <a href="#overview-section">Overview</a>
-        <a href="#partners-section">Partners</a>
-        <a href="#whyapply-section">Benefits</a>
-        <a href="#faq">FAQ</a>
-        <a
-          id="button"
-          href="https://forms.gle/DpMo8EURvds47tmE8"
-          target="_blank"
-        >
-          Apply Here
-        </a>
+        <a href="">Showcase</a>
+        <a href="">Cohort</a>
       </nav>
 
       <nav className="mobile">
@@ -56,27 +48,13 @@ function Navbar() {
               </a>
             </div>
             <div className="nav-item">
-              <a href="#partners-section" onClick={() => closeMenu()}>
-                Partners
+              <a href="" onClick={() => closeMenu()}>
+                Showcase
               </a>
             </div>
             <div className="nav-item">
-              <a href="#whyapply-section" onClick={() => closeMenu()}>
-                Benefits
-              </a>
-            </div>
-            <div className="nav-item">
-              <a href="#faq" onClick={() => closeMenu()}>
-                FAQ
-              </a>
-            </div>
-            <div className="nav-item">
-              <a
-                href="https://forms.gle/DpMo8EURvds47tmE8"
-                target="_blank"
-                onClick={() => closeMenu()}
-              >
-                Apply
+              <a href="" onClick={() => closeMenu()}>
+                Cohort
               </a>
             </div>
           </div>
