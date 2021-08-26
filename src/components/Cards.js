@@ -106,7 +106,7 @@ function Cards() {
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Women-led and run coffee shop</li>
-              <li className="bullet-text">Needs help in creating a website/app and marketing</li>
+              <li className="bullet-text">Needs help in creating a website/app, marketing, and/or expanding the brand</li>
             </ul>
           </div>
         </Grid>
@@ -126,11 +126,11 @@ function Cards() {
             <div className="cards-contact">
               <a
                 target="_blank"
-                href="https://www.instagram.com/furrylicious/?hl=en"
+                href="https://www.instagram.com/furliciouspetssd/?hl=en"
               >
                 <p className="contact-first-text">INSTAGRAM</p>
               </a>
-              <a target="_blank" href="https://www.furrylicious.com/">
+              <a target="_blank" href="https://www.furliciousco.com/">
                 <p className="contact-text">WEBSITE</p>
               </a>
             </div>
@@ -163,6 +163,7 @@ function Cards() {
               <a target="_blank" href="https://www.yelp.com/biz/cut-and-dry-barbershop-san-diego">
                 <p className="contact-text">YELP</p>
               </a>
+              
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Asian American-owned barber shop</li>
@@ -180,21 +181,27 @@ function Cards() {
               <div className="cards-item6-img"></div>
             </Draggable>
             <div className="cards-title">
-              <p className="cards-title-text">Cafe X</p>
-              <div className="cards-line"></div>
+              <p className="cards-title-really-large-text">Cafe X: By Any Beans Necessary</p>
+              <div className="cards-large-line"></div>
             </div>
             <div className="cards-contact">
               <a target="_blank" href="http://instagram.com/theofficialcafex">
                 <p className="contact-first-text">INSTAGRAM</p>
               </a>
+              <a target="_blank" href="https://www.facebook.com/byanybeans">
+                <p className="contact-text">FACEBOOK</p>
+              </a>
               <a target="_blank" href="https://www.byanybeans.org/">
                 <p className="contact-text">WEBSITE</p>
+              </a>
+              <a target="_blank" href="https://www.yelp.com/biz/cafe-x-by-any-beans-necessary-san-diego">
+                <p className="contact-text">YELP</p>
               </a>
             </div>
             <ul className="cards-bullets">
               <li className="bullet-text">Black, women-owned coffee shop</li>
               <li className="bullet-text">
-                Needs marketing/web design assistance
+              Needs help with e-commerce website relaunch, marketing plan for new products, and social media revamp
               </li>
             </ul>
           </div>

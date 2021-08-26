@@ -650,7 +650,7 @@ a:hover {
 .cards-item5 {
   border: 3px solid #e0d9d5;
   border-radius: 10px;
-  min-height: 10rem;
+  min-height: 12.8rem;
 }
 
 .cards-item5-img {
@@ -695,9 +695,22 @@ a:hover {
   white-space: nowrap;
 }
 
+.cards-title-really-large-text {
+  font-size: 1.25rem;
+  margin: 1rem 0rem 0rem 1rem;
+  font-family: "Neue Plak";
+}
+
 .cards-line {
   height: 3px;
   width: 300px;
+  background-image: url("./assets/images/line.svg");
+  margin: 1.5rem 1.5rem 0rem;
+}
+
+.cards-large-line {
+  height: 3px;
+  width: 100px;
   background-image: url("./assets/images/line.svg");
   margin: 1.5rem 1.5rem 0rem;
 }
@@ -869,8 +882,16 @@ a:hover {
 }
 
 /********* Cards Media Query ********/
+@media (max-width: 1200px) {
+  .cards-title-really-large-text {
+    white-space: normal;
+  }
+}
 @media (max-width: 1080px) {
   .cards-title-large-text {
+    white-space: normal;
+  }
+  .cards-title-really-large-text {
     white-space: normal;
   }
 }
@@ -881,6 +902,10 @@ a:hover {
 
   .top-cards {
     padding-bottom: 12vw;
+  }
+
+  .cards-item5 {
+    min-height: 10rem;
   }
 }
 
@@ -913,9 +938,7 @@ a:hover {
     display: none;
   }
 
-  .cards-title-large-text {
-    white-space: nowrap;
-  }
+
   .cards-head-text {
     font-size: 1rem;
     line-height: 1.5rem;

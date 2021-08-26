@@ -43,6 +43,11 @@ function Accordion() {
       answer: "Monday, June 14 at 11:59PM PT.",
       open: false,
     },
+    {
+      question: "Will this program be in person or remote?",
+      answer: "Power Up will be fully remote.",
+      open: false,
+    },
   ]);
 
   const toggleFAQ = (index) => {
