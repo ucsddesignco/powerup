@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div className="about-section">
+        <div className="about-section" id="about-section">
             <h1>What is Power Up?</h1>
             <div className="about-text">
                 <p>
