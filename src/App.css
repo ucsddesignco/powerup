@@ -1766,7 +1766,7 @@ img.team-img {
 #modal-red {
   margin-left: -12vw;
   margin-right: -12vw;
-  width: calc(100% + 24vw);
+  width: calc(100% + 20vw);
   height: 8vw;
 }
 
