@@ -1357,6 +1357,7 @@ a:hover {
   transition: 0.5s;
   overflow: hidden;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .newcard2 {

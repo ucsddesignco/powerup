@@ -6,10 +6,16 @@ import { Timeline } from "gsap/gsap-core";
 
 function Showcase2() {
     const [showModal, setShowModal] = useState(false);
+    const [index, setIndex] = useState(-1);
     
     const hideModal = () => {
         setShowModal(false);
     };
+
+    const display = (value) => {
+        setIndex(value);
+        setShowModal(true);
+    }
 
     const onEnter1 = ({ currentTarget }) => {
         gsap.to("#box1", {
@@ -85,8 +91,8 @@ function Showcase2() {
     <div className="showcase" id="showcase-section">
         <p className="showcase-header-text">Showcase</p>
         <div className="showcase-container">
-            <div className="showcase-large">
-                    <div className="newcard" onMouseEnter={onEnter1} onMouseLeave={onLeave1} onClick={() => {setShowModal(true)}}>
+                <div className="showcase-large">
+                    <div className="newcard">
                         <div className="newcard-img1"/>
                         <div className="newcard-body">
                             <div className="newcard-info">
@@ -101,14 +107,14 @@ function Showcase2() {
                                 <p className="newcard-header-text">Blendees</p>
                                 <p className="newcard-name-text">Nicolette Shin, Jodie Li, Tracy Nguyen, Rou Wen, Adrian Rodriguez Valdez</p>
                                 <p className="newcard-body-text">Blendees is a Black-owned smoothie and juice bar. The team redesigned Blendees’ website and marketing strategies to increase new user engagement, improved discoverability of their services, and amplified their voice as a healthy, Black-owned small business.</p>
-                                <div className="newcard-view-items" onClick={() => {setShowModal(true)}}>
+                                <div className="newcard-view-items">
                                     <p className="newcard-view-text">VIEW MORE</p>
                                     <div className="newcard-rightarrow"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="newcard" onMouseEnter={onEnter2} onMouseLeave={onLeave2}>
+                    <div className="newcard">
                         <div className="newcard-img2"/>
                         <div className="newcard-body">
                             <div className="newcard-info">
@@ -178,7 +184,7 @@ function Showcase2() {
                             </div>
                         </div>
                     </div>
-                    <div className="newcard" onMouseEnter={onEnter5} onMouseLeave={onLeave5}>
+                    <div className="newcard">
                         <div className="newcard-img5"/>
                         <div className="newcard-body">
                             <div className="newcard-info">
@@ -204,8 +210,8 @@ function Showcase2() {
                 </div>
 
                 <div className="showcase-medium">
-                    <div className="newcard" onMouseEnter={onEnter1} onMouseLeave={onLeave1}>
-                        <div className="newcard-img1"/>
+                    <div className="newcard" >
+                        <div className="newcard-img1" onClick={() => {display(0)}}/>
                         <div className="newcard-body">
                             <div className="newcard-info">
                                 <div className="newcard-header-text">Blendees</div>
@@ -226,8 +232,8 @@ function Showcase2() {
                             </div>
                         </div>
                     </div>
-                    <div className="newcard" onMouseEnter={onEnter2} onMouseLeave={onLeave2}>
-                        <div className="newcard-img2"/>
+                    <div className="newcard">
+                        <div className="newcard-img2" onClick={() => {display(1)}}/>
                         <div className="newcard-body">
                             <div className="newcard-info">
                                 <div className="newcard-header-text">Cafe X</div>
@@ -252,8 +258,8 @@ function Showcase2() {
                     
                 
                 <div className="showcase-medium">
-                    <div className="newcard" onMouseEnter={onEnter3} onMouseLeave={onLeave3}>
-                        <div className="newcard-img3"/>
+                    <div className="newcard">
+                        <div className="newcard-img3" onClick={() => {display(2)}}/>
                         <div className="newcard-body">
                             <div className="newcard-info">
                                 <div className="newcard-header-text">Cut & Dry Barbershop</div>
@@ -274,8 +280,8 @@ function Showcase2() {
                             </div>
                         </div>
                     </div>
-                    <div className="newcard" onMouseEnter={onEnter4} onMouseLeave={onLeave4}>
-                        <div className="newcard-img4"/>
+                    <div className="newcard">
+                        <div className="newcard-img4" onClick={() => {display(3)}}/>
                         <div className="newcard-body">
                             <div className="newcard-info">
                                 <div className="newcard-header-text">Blendees</div>
@@ -299,8 +305,8 @@ function Showcase2() {
 
                 </div>
                 <div className="showcase-medium">
-                    <div className="newcard" onMouseEnter={onEnter5} onMouseLeave={onLeave5}>
-                        <div className="newcard-img5"/>
+                    <div className="newcard">
+                        <div className="newcard-img5" onClick={() => {display(4)}}/>
                         <div className="newcard-body">
                             <div className="newcard-info">
                                 <div className="newcard-header-text">Kini Koffee</div>
@@ -332,7 +338,7 @@ function Showcase2() {
         <Modal
             show={showModal}
             onHide={() => {hideModal()}} 
-            index={0} 
+            index={index} 
         />   
     </div>
   );
