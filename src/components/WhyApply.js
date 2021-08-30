@@ -28,13 +28,6 @@ function WhyApply() {
         </div>
       </div>
       <div></div>
-      <a
-        className="apply-here-btn"
-        href="https://forms.gle/DpMo8EURvds47tmE8"
-        target="_blank"
-      >
-        Apply Here
-      </a>
     </div>
   );
 }
