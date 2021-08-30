@@ -201,7 +201,7 @@ a:hover {
   background-color: #e0d9d5;
   width: auto;
   height: auto;
-  padding: 12rem 8vw 10rem 8vw;
+  padding: 12rem 8vw 8rem 8vw;
   color: #292929;
 }
 
@@ -413,7 +413,7 @@ a:hover {
 .about-section {
   width: auto;
   height: auto;
-  padding: 7.5rem 8vw 9rem 8vw;
+  padding: 6rem 8vw 8rem 8vw;
   background: url(assets/images/about-background.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -438,6 +438,10 @@ a:hover {
   color: #e0d9d5;
   background-color: #292929;
   line-height: 1.5;
+}
+
+#about-section:target {
+  padding-top: calc(70px + 6rem);
 }
 
 /********* ABOUT MEDIA QUERY ********/
@@ -1300,5 +1304,223 @@ a:hover {
   }
   .footer-text {
     margin-top: 0.8rem;
+  }
+}
+
+/********* Modal ********/
+.team-modal {
+  position: fixed;
+  background: #292929;
+  color: white;
+  top: calc(70px + 3vw);
+  left: 0;
+  right: 0;
+  overflow: auto;
+  height: calc(100% - 70px - 3vw);
+  z-index: 100;
+}
+
+.inner-modal {
+  margin: 2rem 8vw 0 8vw;
+  color: #E0D9D5;
+}
+
+#modal-exit {
+  text-align: right;
+}
+
+.modal-top {
+  margin-bottom: 1.5rem;
+}
+
+.inner-modal h1 {
+  font-family: "Neue Plak";
+  font-size: 3rem;
+  margin-top: 1rem;
+  line-height: 120%;
+}
+
+.inner-modal p {
+  font-family: "Inter";
+  line-height: 250%;
+  font-size: 0.8rem;
+}
+
+.modal-info p {
+  width: 34vw;
+}
+
+.inner-modal ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 1.25rem 0;
+}
+
+.inner-modal li {
+  margin-right: 1.25rem;
+}
+
+.inner-modal a {
+  font-family: "Inter";
+  font-size: 0.8rem;
+  color: #E0D9D5;
+}
+
+#case-study {
+  color: #292929;
+  background-color: #ff5722;
+  height: 3rem;
+  border-radius: 120px;
+  width: 13rem;
+  text-align: center;
+  line-height: 3rem;
+  margin-top: 2.5rem;
+}
+
+#case-study h3 {
+  font-family: "NB International Mono";
+  font-size: 0.9rem;
+}
+
+#case-button {
+  text-decoration: none;
+}
+
+#case-study:hover {
+  background-color: #e0d9d5;
+}
+
+.carousel .slide {
+  text-align: right!important;
+}
+
+.carousel img {
+  pointer-events: auto!important;
+  cursor: pointer;
+}
+
+img.team-img {
+  display: inline-block;
+  width: 34vw !important;
+  padding-bottom: 40px;
+}
+
+.carousel .control-dots  {
+  right: -15vw!important;
+  width: 34vw!important;
+}
+
+.carousel .control-dots .dot {
+  background: #ff5722!important;
+}
+
+.inner-modal h2 {
+  font-family: "Neue Plak";
+  font-size: 1.5rem;
+  margin: 0 auto 2rem auto;
+}
+
+.inner-modal h3 {
+  font-family: "Neue Plak";
+  font-size: 1rem;
+  margin: 1rem 0 0.8rem 0;
+}
+
+.inner-person p {
+  line-height: 160%;
+}
+
+.mentors {
+  margin-bottom: 3.5rem;
+}
+
+.line {
+  background-color: #515151;
+  height: 2px;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.member-img {
+  width: 12vw;
+}
+
+.inner-modal a:hover {
+  text-decoration: none;
+}
+
+.margin {
+  margin: 8vw;
+}
+
+#modal-red {
+  margin-left: -12vw;
+  margin-right: -12vw;
+  width: calc(100% + 24vw);
+  height: 8vw;
+}
+
+.mobile-modal {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-modal {
+    display: flex;
+  }
+
+  .modal-info p {
+    width: 76vw;
+  }
+
+  .desktop-modal {
+    display: none;
+  }
+
+  #modal-exit img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .inner-modal h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  img.mobile-modal {
+    width: 18vw;
+    height: 4rem;
+  } 
+
+  img.team-img {
+    width: 76vw!important;
+  }
+
+  .carousel .control-dots  {
+    right: -32vw!important;
+    width: 76vw!important;
+  }
+
+  #case-study {
+    margin: 2rem 0;
+    width: 76vw;
+  }
+
+  .member-img {
+    width: 36vw;
+  }
+
+  .team, .mentors {
+    column-gap: 0;
+  }
+
+  .inner-person p {
+    margin-bottom: 1.25rem;
+  }
+
+  .team, .mentors {
+    justify-content: left!important;
   }
 }

@@ -24,9 +24,8 @@ function Navbar() {
         <img id="ball-logo" src={Ball} alt="Ball Logo" /> Power Up
       </span>
       <nav className="desktop">
-        <a href="#overview-section">Overview</a>
+        <a href="#about-section">Overview</a>
         <a href="">Showcase</a>
-        <a href="">Cohort</a>
       </nav>
 
       <nav className="mobile">
@@ -43,18 +42,13 @@ function Navbar() {
         {menuOpen && (
           <div className="nav-container">
             <div className="nav-item">
-              <a href="#overview-section" onClick={() => closeMenu()}>
+              <a href="#about-section" onClick={() => closeMenu()}>
                 Overview
               </a>
             </div>
             <div className="nav-item">
               <a href="" onClick={() => closeMenu()}>
                 Showcase
-              </a>
-            </div>
-            <div className="nav-item">
-              <a href="" onClick={() => closeMenu()}>
-                Cohort
               </a>
             </div>
           </div>
