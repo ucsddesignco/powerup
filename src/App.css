@@ -197,12 +197,18 @@ a:hover {
 
 /********* LANDING ********/
 
+.landing {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .landing-section {
   background-color: #e0d9d5;
   width: auto;
   height: auto;
   padding: 12rem 8vw 10rem 8vw;
   color: #292929;
+  overflow-x: hidden;
 }
 
 .top-container {
@@ -1020,9 +1026,9 @@ a:hover {
 /********* Why Apply ********/
 
 #whyapply-section {
-  background-color: #e0d9d5;
-  padding: 7.5rem 8vw;
-  color: #292929;
+  background-color: #292929;
+  padding: 7.5rem 8vw 5rem;
+  color: #e0d9d5;
   display: flex;
   flex-direction: row;
 }
@@ -1300,5 +1306,297 @@ a:hover {
   }
   .footer-text {
     margin-top: 0.8rem;
+  }
+}
+
+
+/********* Animation ********/
+.tape1 {
+  display: flex;
+  align-items: center;
+  height: 12rem;
+  width: 130vw;
+  background-color: #FF5722;
+  transform: rotate(24deg) translateY(-8vh);
+  position: absolute;
+  border: #292929 2px solid;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.tape2 {
+  display: flex;
+  align-items: center;
+  height: 12rem;
+  width: 140vw;
+  background-color: #FF5722;
+  transform: rotate(-24deg) translateX(-30vw);
+  position: absolute;
+  border: #292929 2px solid;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.tape-text {
+  position: absolute;
+  font-size: 6rem;
+  color: #292929;
+  font-family: "Neue Plak";
+  transform: translateX(-60vw) translateY(-2vh);
+}
+
+.newcard {
+  color: #292929;
+  height: 30rem;
+  min-width: 24rem;
+  filter: grayscale(100%);
+  transition: 0.5s;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.newcard2 {
+  color: #292929;
+  background-color: #e0d9d5;
+  height: 30rem;
+  width: 24rem;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.newcard:hover {
+  filter: none;
+  color: #e0d9d5;
+}
+
+.newcard-img1 {
+  height: 24rem;
+  min-width: 24rem;
+  background-image: url("./assets/images/blendees.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  border: #292929 solid 2px;
+}
+
+.newcard-img2 {
+  height: 24rem;
+  min-width: 24rem;
+  background-image: url("./assets/images/cafex.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  border: #292929 solid 2px;
+}
+
+.newcard-img3 {
+  height: 24rem;
+  min-width: 24rem;
+  background-image: url("./assets/images/cutanddry.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  border: #292929 solid 2px;
+}
+
+.newcard-img4 {
+  height: 24rem;
+  min-width: 24rem;
+  background-image: url("./assets/images/furlicious.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  border: #292929 solid 2px;
+}
+
+.newcard-img5 {
+  height: 24rem;
+  min-width: 24rem;
+  background-image: url("./assets/images/kini.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  border: #292929 solid 2px;
+}
+
+.newcard-body {
+  width: 24rem;
+}
+
+.newcard-info {
+  margin: 1rem 1vw;
+}
+.newcard-box-info {
+  margin: 0 1vw;
+}
+
+.newcard-header-text {
+  font-size: 1.25rem;
+  font-family: "Neue Plak";
+  margin-bottom: 1rem;
+}
+
+.newcard-name-text {
+  font-size: 0.85rem;
+  font-family: "Inter";
+  margin-bottom: 1rem;
+}
+
+.newcard-body-text {
+  font-size: 0.7rem;
+  font-family: "Inter";
+  line-height: 1.5rem;
+  text-align: justify;
+  color: #e0d9d5;
+  margin-bottom: 1rem;
+}
+
+.newcard-view-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.newcard-view-text {
+  font-size: 0.7rem;
+  font-family: "Inter";
+}
+
+.newcard-rightarrow {
+  background-image: url("./assets//images/rightarrow.svg");
+  padding: 1rem;
+  background-size: contain;
+  margin-left: 0.5rem;
+}
+
+.newcard-box {
+  display: flex;
+  background-color: #292929;
+  height: 17rem;
+  width: 24.3rem;
+  padding-top: 1.25rem;
+}
+
+.showcase {
+  margin: 10rem 0;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 8vw;
+}
+
+.showcase-large {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.showcase-large2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.showcase-medium {
+  display: none;
+}
+
+.showcase-container-cards {
+  display: flex;
+  justify-content: center;
+  width: 84vw;
+}
+
+.showcase-cards {
+  display: flex;
+  justify-items: center;
+}
+
+.showcase-header-text {
+  color: #292929;
+  font-size: 4.5rem;
+  font-family: "Neue Plak";
+  margin: 0 8vw 4rem;
+}
+
+.red-button {
+  display: flex;
+  background-color: #ff5722;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 30px;
+  border: #292929 solid 2px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 4rem;
+}
+
+.red-button-text {
+  color: #292929;
+  font-size: 1rem;
+  font-family: "NB International";
+  text-transform: uppercase;
+}
+
+@media (max-width: 1450px) {
+  .showcase-large {
+    display: none;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+  }
+  .showcase-medium {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tape1 {
+    height: 8rem;
+  }
+  .tape2 {
+    height: 8rem;
+  }
+  .tape-text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .showcase-medium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+  }
+  .showcase-header-text {
+    align-self: center;
+  }
+  .showcase-header-text {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .newcard2 {
+    display: none;
+  }
+  .red-button {
+    margin: 1rem 0 2rem;
+  }
+  .tape1 {
+    height: 6rem;
+    transform: rotate(24deg) translateX(-15vw);
+  }
+  .tape2 {
+    height: 6rem;
+    transform: rotate(-24deg) translateX(-30vw);
+  }
+  .tape-text {
+    font-size: 3rem;
+    transform: translateX(-100vw) translateY(-1vh);
   }
 }

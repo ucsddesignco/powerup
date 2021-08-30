@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import WhyApply from "./components/WhyApply";
 import Overview from "./components/Overview";
 import Cards from "./components/Cards";
+import Showcase from "./components/Showcase";
+import Showcase2 from "./components/Showcase2";
 
 function App() {
   /* const [cursorX, setCursorX] = useState();
@@ -30,10 +32,8 @@ function App() {
       <Navbar />
       <Landing />
       <About />
-      <Overview></Overview>
-      <Cards></Cards>
+      <Showcase2/>
       <WhyApply />
-      <FAQStructure />
       <Footer />
     </div>
   );
