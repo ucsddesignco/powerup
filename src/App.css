@@ -1351,7 +1351,7 @@ a:hover {
 
 .newcard {
   color: #292929;
-  height: 30rem;
+  height: 32rem;
   min-width: 24rem;
   filter: grayscale(100%);
   transition: 0.5s;
@@ -1363,7 +1363,7 @@ a:hover {
 .newcard2 {
   color: #292929;
   background-color: #e0d9d5;
-  height: 30rem;
+  height: 32rem;
   width: 24rem;
   transition: 0.5s;
   overflow: hidden;
@@ -1445,6 +1445,7 @@ a:hover {
   font-size: 0.85rem;
   font-family: "Inter";
   margin-bottom: 1rem;
+  line-height: 1.25rem;
 }
 
 .newcard-body-text {
@@ -1477,7 +1478,7 @@ a:hover {
 }
 
 .newcard-box {
-  display: flex;
+  display: none;
   background-color: #292929;
   height: 17rem;
   width: 24.3rem;

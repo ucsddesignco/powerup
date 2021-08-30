@@ -284,7 +284,7 @@ function Showcase2() {
                         <div className="newcard-img4" onClick={() => {display(3)}}/>
                         <div className="newcard-body">
                             <div className="newcard-info">
-                                <div className="newcard-header-text">Blendees</div>
+                                <div className="newcard-header-text">Furlicious</div>
                                 <div className="newcard-name-text">Princess Labrador, Autumn Bui, Matthew Chijioke, Hannah Nicole Espejo</div>
                             </div>
                         </div>
