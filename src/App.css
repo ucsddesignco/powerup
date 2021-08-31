@@ -1668,6 +1668,7 @@ a:hover {
   }
   .tape1 {
     height: 6rem;
+    transform: rotate(2deg) translateY(20vh) translateX(25vw);
   }
   .tape2 {
     height: 6rem;
