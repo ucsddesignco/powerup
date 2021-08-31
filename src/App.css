@@ -1349,7 +1349,7 @@ a:hover {
   height: 12rem;
   width: 105%;
   background-color: #FF5722;
-  transform: rotate(-2deg) translateY(140%) translateX(-35%);
+  transform: rotate(-2deg) translateY(170%) translateX(-35%);
   position: absolute;
   border: #292929 2px solid;
   white-space: nowrap;
@@ -1655,9 +1655,11 @@ a:hover {
   }
   .tape1 {
     height: 8rem;
+    transform: rotate(2deg) translateY(50%) translateX(25%);
   }
   .tape2 {
     height: 8rem;
+    transform: rotate(-2deg) translateY(250%) translateX(-35%);
   }
   .tape-text1{
     font-size: 4.5rem;
@@ -1719,18 +1721,19 @@ a:hover {
   }
   .tape1 {
     height: 6rem;
-    transform: rotate(2deg) translateY(20vh) translateX(25vw);
+    transform: rotate(2deg) translateY(100%) translateX(25%);
   }
   .tape2 {
     height: 6rem;
+    transform: rotate(-2deg) translateY(300%) translateX(-35%);
   }
   .tape-text1 {
     font-size: 3rem;
-    transform: translateX(150vw) translateY(-1vh);
+    transform: translateX(90%) translateY(-1vh);
   }
   .tape-text2 {
     font-size: 3rem;
-    transform: translateX(-120vw) translateY(-1vh);
+    transform: translateX(-60%) translateY(-1vh);
   }
 }
 
