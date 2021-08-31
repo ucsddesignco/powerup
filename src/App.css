@@ -5,14 +5,12 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
   background-color: #e0d9d5;
 }
 
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 .cursor {
@@ -1383,19 +1381,12 @@ a:hover {
 
 .newcard {
   color: #292929;
-  height: 510px;
+  height: 460px;
   min-width: 310px;
   filter: grayscale(100%);
   transition: 0.5s;
   overflow: hidden;
   margin-bottom: 2rem;
-}
-.newcard2 {
-  color: #292929;
-  background-color: #e0d9d5;
-  height: 28rem;
-  width: 310px;
-  overflow: hidden;
 }
 
 .newcard:hover {
@@ -1409,7 +1400,7 @@ a:hover {
 }
 
 .newcard:hover > #box1 {
-  transform: translateY(-20.5rem) translateX(12.8px);
+  transform: translateY(-18.5rem) translateX(12.8px);
 }
 
 #box2 {
@@ -1418,7 +1409,7 @@ a:hover {
 
 .newcard:hover > #box2 {
   transition: 0.5s;
-  transform: translateY(-23rem) translateX(12.8px);
+  transform: translateY(-21rem) translateX(12.8px);
 }
 
 #box3 {
@@ -1427,7 +1418,7 @@ a:hover {
 
 .newcard:hover > #box3 {
   transition: 0.5s;
-  transform: translateY(-19.5rem) translateX(12.8px);
+  transform: translateY(-17.5rem) translateX(12.8px);
 }
 
 #box4 {
@@ -1436,7 +1427,7 @@ a:hover {
 
 .newcard:hover > #box4 {
   transition: 0.5s;
-  transform: translateY(-22rem) translateX(12.8px);
+  transform: translateY(-20rem) translateX(12.8px);
 }
 
 .newcard-img1, .newcard-img2, .newcard-img3, .newcard-img4, .newcard-img5 {
