@@ -1383,7 +1383,7 @@ a:hover {
 
 .newcard {
   color: #292929;
-  height: 480px;
+  height: 510px;
   min-width: 310px;
   filter: grayscale(100%);
   transition: 0.5s;
