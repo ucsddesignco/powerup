@@ -32,27 +32,27 @@ function App() {
       })
       .to("#tape1", {
         duration: 0.7,
-        x: "-5vw",
+        x: "-2.5%",
         ease: "power2",
       }, 0.1)
       .to("#tape2", {
         duration: 0.7,
-        x: "-5vw",
+        x: "-2.5%",
         ease: "power2",
       }, 0.1)
       .to("#text1", {
         duration: 2.3,
-        x: "-70vw",
+        x: "-70%",
         ease: "circ",
       }, 0.2)
       .to("#text3", {
         duration: 2.3,
-        x: "60vw",
+        x: "60%",
         ease: "circ",
       }, 0.2)
       .to("#boxes", {
         duration: 0.8,
-        height: "50vh",
+        height: "50%",
         ease: "power3",
       }, 1.5)
       .to("#boxes", {

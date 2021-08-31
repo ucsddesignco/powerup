@@ -1347,9 +1347,9 @@ a:hover {
   align-items: center;
   justify-content: flex-end;
   height: 12rem;
-  width: 105vw;
+  width: 105%;
   background-color: #FF5722;
-  transform: rotate(-2deg) translateY(58vh) translateX(-35vw);
+  transform: rotate(-2deg) translateY(140%) translateX(-35%);
   position: absolute;
   border: #292929 2px solid;
   white-space: nowrap;
@@ -1361,7 +1361,7 @@ a:hover {
   font-size: 6rem;
   color: #292929;
   font-family: "Neue Plak";
-  transform: translateX(120vw) translateY(-2vh);
+  transform: translateX(120%) translateY(-2vh);
 }
 
 .tape-text1-white {
@@ -1369,7 +1369,7 @@ a:hover {
   font-size: 6rem;
   color: white;
   font-family: "Neue Plak";
-  transform: translateX(120vw) translateY(-2vh);
+  transform: translateX(120%) translateY(-2vh);
 }
 
 .tape-text2 {
