@@ -7,56 +7,12 @@ import { Tween } from "gsap/gsap-core";
 
 function Landing() {
 
-  useEffect(() => {
-    const tl1 = gsap.timeline({
-      defaults: {
-        repeat: -1,
-      }
-    })
-    tl1
-      .to('#text1', {
-        duration: 4,
-        x: "200vw",
-        ease: "none",
-      })
-      .to('#text2', {
-        duration: 4,
-        x: "200vw",
-        ease: "none",
-      }, "<2")
-      .startTime(-6)
-
-    const tl2 = gsap.timeline({
-      defaults: {
-        repeat: -1,
-      }
-    })
-    tl2
-      .to('#text3', {
-        duration: 6,
-        x: "200vw",
-        ease: "none",
-      })
-      .to('#text4', {
-        duration: 6,
-        x: "200vw",
-        ease: "none",
-      }, "<3")
-      .startTime(-6)
-            })
-
   return (
     <div id="landing">
-      <div className="landing-section">
 
-        <div className="tape1">
-          <div className="tape-text" id="text1">Showcase Out Now</div>
-          <div className="tape-text" id="text2">Showcase Out Now</div>
-        </div>
-        <div className="tape2">
-          <div className="tape-text" id="text3">Showcase Out Now</div>
-          <div className="tape-text" id="text4">Showcase Out Now</div>
-        </div>
+      
+
+      <div className="landing-section">
 
         <div className="right" id="shop">
           <img src={Shop} alt="Coffee Shop" />
