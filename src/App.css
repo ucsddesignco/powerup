@@ -6,6 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #e0d9d5;
+  overflow-x: hidden;
 }
 
 * {
