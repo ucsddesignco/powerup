@@ -18,10 +18,10 @@ function Showcase2() {
     }
 
   return (
-    <div className="showcase">
-    <p className="showcase-header-text">Showcase</p>
-    <div className="showcase-container">
-      <div className="showcase-large">
+    <div className="showcase" id="showcase-section">
+        <p className="showcase-header-text">Showcase</p>
+        <div className="showcase-container">
+        <div className="showcase-large">
               <div className="newcard" >
                   <div className="newcard-img1" onClick={() => {display(0)}}/>
                   <div className="newcard-body">
@@ -258,11 +258,11 @@ function Showcase2() {
                   </div>
               </div>
               <div className="newcard2"></div>
-          </div>
+        </div>
       
-      <div className="red-button">
+        <div className="red-button">
           <p className="red-button-text">Showcase Recording</p>
-      </div>
+        </div>
           
     </div>
     <Modal

@@ -1552,6 +1552,10 @@ a:hover {
   transform: translateY(3rem);
 }
 
+#showcase-section:target {
+  padding-top: calc(70px + 6rem);
+}
+
 .showcase {
   padding: 5.5rem 0 7rem;
 }

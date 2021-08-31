@@ -6,7 +6,6 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import WhyApply from "./components/WhyApply";
 import Showcase2 from "./components/Showcase2";
-import Modal from "./components/Modal";
 import gsap from "gsap";
 
 function App() {
@@ -16,16 +15,6 @@ function App() {
     setCursorX(e.pageX);
     setCursorY(e.pageY);
   }); */
-
-  const [showModal, setShowModal] = useState(-1);
-
-  const getModal = (value) => {
-    setShowModal(value);
-  }
-
-  const hideModal = () => {
-    setShowModal(-1);
-  };
 
   useEffect(() => {
     const tl = gsap.timeline({
