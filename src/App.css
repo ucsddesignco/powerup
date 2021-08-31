@@ -1030,9 +1030,9 @@ a:hover {
 /********* Why Apply ********/
 
 #whyapply-section {
-  background-color: #292929;
+  background-color: #e0d9d5;
   padding: 7.5rem 8vw 5rem;
-  color: #e0d9d5;
+  color: #292929;
   display: flex;
   flex-direction: row;
 }
@@ -1611,8 +1611,8 @@ a:hover {
 .red-button {
   display: flex;
   background-color: #ff5722;
-  width: 15rem;
-  height: 3rem;
+  width: 240px;
+  height: 48px;
   border-radius: 30px;
   border: #292929 solid 2px;
   justify-content: center;
@@ -1958,5 +1958,144 @@ img.team-img {
 
   .team, .mentors {
     justify-content: left!important;
+  }
+}
+
+/********* Medium ********/
+.medium {
+  background-color: #292929;
+  color: #e0d9d5;
+  padding: 4.5rem 8vw 6rem;
+}
+
+.medium h3 {
+  font-family: "Neue Plak";
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.medium-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.medium-card {
+  display: flex;
+  flex-direction: column;
+  border: #e0d9d5 solid 2px;
+  border-radius: 10px;
+  height: 320px;
+}
+
+.medium-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem 1rem 1.5rem;
+  height: 100%;
+}
+
+.medium-card h4 {
+  font-size: 1.25rem;
+  font-family: "Neue Plak";
+}
+
+.medium-card p {
+  font-size: 1rem;
+  font-family: "Inter";
+  margin-top: 0.8rem;
+  line-height: 1.7rem;
+}
+
+.medium-red-button {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 180px;
+  border-radius: 30px;
+  background-color: #ff5722;
+  margin: 0.8rem 0 0;
+}
+
+.redstuff {
+  display: flex;
+  height: auto;
+}
+
+.medium-red-button p {
+  display: flex;
+  color: #292929;
+  font-size: 0.9rem;
+  font-family: "Inter";
+  margin-bottom: 0.8rem;
+}
+
+.medium-chad-container {
+  display: flex;
+  justify-content: center;
+}
+
+.medium-chad {
+  display: flex;
+  background-image: url("./assets/images/chad.png");
+  height: 260px;
+  width: 290px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.medium-red-tape {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  width: 170vw;
+  background-color: #FF5722;
+  transform: rotate(-25deg) translateX(-25vw) translateY(-10vh);
+  position: absolute;
+  border: #292929 2px solid;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.medium-red-tape p {
+  position: absolute;
+  font-family: "Neue Plak";
+  font-size: 3.5rem;
+  color: #292929;
+  transform: translateX(-60vw);
+}
+
+@media (max-width: 1279px) {
+  .medium-card {
+    height: 250px;
+  }
+  .medium-red-tape {
+    transform: rotate(-40deg) translateX(-45vw) translateY(-10vh);
+  }
+}
+
+@media (max-width: 959px) {
+  .medium-card {
+    height: auto;
+  }
+
+}
+
+@media (max-width: 680px) {
+  .medium-red-tape p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .medium-red-tape p {
+    font-size: 1.5rem;
+  }
+  .medium-red-tape {
+    height: 4rem;
   }
 }

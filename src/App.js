@@ -6,6 +6,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import WhyApply from "./components/WhyApply";
 import Showcase2 from "./components/Showcase2";
+import Medium from "./components/Medium";
 import gsap from "gsap";
 
 function App() {
@@ -85,6 +86,7 @@ function App() {
       <Landing />
       <About />
       <Showcase2 />
+      <Medium />
       <WhyApply />
       <Footer />
     </div>
