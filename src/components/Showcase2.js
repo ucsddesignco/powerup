@@ -136,7 +136,6 @@ function Showcase2() {
                       </div>
                   </div>
               </div>
-              <div className="newcard2"></div>
           </div>
 
           <div className="showcase-medium">
@@ -257,7 +256,6 @@ function Showcase2() {
                       </div>
                   </div>
               </div>
-              <div className="newcard2"></div>
         </div>
       
         <div className="red-button">

@@ -1368,8 +1368,8 @@ a:hover {
 
 .newcard {
   color: #292929;
-  height: 28rem;
-  min-width: 20rem;
+  height: 29rem;
+  min-width: 310px;
   filter: grayscale(100%);
   transition: 0.5s;
   overflow: hidden;
@@ -1379,7 +1379,7 @@ a:hover {
   color: #292929;
   background-color: #e0d9d5;
   height: 28rem;
-  width: 20rem;
+  width: 310px;
   overflow: hidden;
 }
 
@@ -1394,7 +1394,7 @@ a:hover {
 }
 
 .newcard:hover > #box1 {
-  transform: translateY(-18rem);
+  transform: translateY(-19rem) translateX(12.8px);
 }
 
 #box2 {
@@ -1403,7 +1403,7 @@ a:hover {
 
 .newcard:hover > #box2 {
   transition: 0.5s;
-  transform: translateY(-20rem);
+  transform: translateY(-21.5rem) translateX(12.8px);
 }
 
 #box3 {
@@ -1412,16 +1412,17 @@ a:hover {
 
 .newcard:hover > #box3 {
   transition: 0.5s;
-  transform: translateY(-16rem);
+  transform: translateY(-17.5rem) translateX(12.8px);
 }
 
 .newcard-img1, .newcard-img2, .newcard-img3, .newcard-img4, .newcard-img5 {
   cursor: pointer;
+  margin: 1vw;
 }
 
 .newcard-img1 {
-  height: 20rem;
-  min-width: 20rem;
+  height: 310px;
+  min-width: 310px;
   background-image: url("./assets/images/blendees.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1430,8 +1431,8 @@ a:hover {
 }
 
 .newcard-img2 {
-  height: 20rem;
-  min-width: 20rem;
+  height: 310px;
+  min-width: 310px;
   background-image: url("./assets/images/cafex.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1440,8 +1441,8 @@ a:hover {
 }
 
 .newcard-img3 {
-  height: 20rem;
-  min-width: 20rem;
+  height: 310px;
+  min-width: 310px;
   background-image: url("./assets/images/cutanddry.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1450,8 +1451,8 @@ a:hover {
 }
 
 .newcard-img4 {
-  height: 20rem;
-  min-width: 20rem;
+  height: 310px;
+  min-width: 310px;
   background-image: url("./assets/images/furlicious.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1460,8 +1461,8 @@ a:hover {
 }
 
 .newcard-img5 {
-  height: 20rem;
-  min-width: 20rem;
+  height: 310px;
+  min-width: 310px;
   background-image: url("./assets/images/kini.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1470,7 +1471,7 @@ a:hover {
 }
 
 .newcard-body {
-  width: 20rem;
+  width: 310px;
 }
 
 .newcard-info {
@@ -1546,14 +1547,10 @@ a:hover {
 .newcard-box {
   display: flex;
   background-color: #292929;
-  height: 20rem;
-  width: 20.3rem;
+  height: 310px;
+  width: 314px;
   padding-top: 1.25rem;
-  transform: translateY(3rem);
-}
-
-#showcase-section:target {
-  padding-top: calc(70px + 6rem);
+  transform: translateY(3rem) translateX(12.8px);
 }
 
 .showcase {
@@ -1569,7 +1566,7 @@ a:hover {
 .showcase-large {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .showcase-large2 {
@@ -1614,7 +1611,7 @@ a:hover {
 
 .red-button-text {
   color: #292929;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: "NB International Mono";
   text-transform: uppercase;
 }
@@ -1642,6 +1639,9 @@ a:hover {
   }
   .tape-text2{
     font-size: 4.5rem;
+  }
+  .newcard-img1, .newcard-img2, .newcard-img3, .newcard-img4, .newcard-img5 {
+    margin: 0;
   }
 }
 
