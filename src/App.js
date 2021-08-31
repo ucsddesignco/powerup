@@ -57,7 +57,7 @@ function App() {
       }, 1.5)
       .to("#boxes", {
         duration: 0.8,
-        y: "-105%",
+        y: "-200%",
         ease: "power3",
       }, 1.5)
       
