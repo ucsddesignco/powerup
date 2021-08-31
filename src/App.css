@@ -1386,16 +1386,28 @@ a:hover {
 .newcard:hover {
   filter: none;
   color: #e0d9d5;
+  cursor: pointer;
+}
+
+#box1 {
+  transition: 0.5s;
 }
 
 .newcard:hover > #box1 {
-  transition: 0.5s;
   transform: translateY(-18rem);
+}
+
+#box2 {
+  transition: 0.5s;
 }
 
 .newcard:hover > #box2 {
   transition: 0.5s;
   transform: translateY(-20rem);
+}
+
+#box3 {
+  transition: 0.5s;
 }
 
 .newcard:hover > #box3 {
