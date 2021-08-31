@@ -1403,6 +1403,10 @@ a:hover {
   transform: translateY(-16rem);
 }
 
+.newcard-img1, .newcard-img2, .newcard-img3, .newcard-img4, .newcard-img5 {
+  cursor: pointer;
+}
+
 .newcard-img1 {
   height: 20rem;
   min-width: 20rem;
@@ -1474,6 +1478,7 @@ a:hover {
   font-size: 0.85rem;
   font-family: "Inter";
   margin-bottom: 1rem;
+  line-height: 1.25rem;
 }
 
 .newcard-body-text {
@@ -1490,6 +1495,7 @@ a:hover {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  cursor: pointer;
 }
 
 .newcard-view-text {
@@ -1509,6 +1515,7 @@ a:hover {
   font-size: 0.85rem;
   font-family: "Inter";
   margin-bottom: 1rem;
+  line-height: 1.25rem;
 }
 
 .newcardbox-view-text {
@@ -1592,7 +1599,7 @@ a:hover {
 .red-button-text {
   color: #292929;
   font-size: 1rem;
-  font-family: "NB International";
+  font-family: "NB International Mono";
   text-transform: uppercase;
 }
 
