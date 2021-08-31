@@ -257,11 +257,11 @@ function Showcase2() {
                   </div>
               </div>
         </div>
-      
-        <div className="red-button">
-          <p className="red-button-text">Showcase Recording</p>
-        </div>
-          
+        <a className="red-button" target="_blank" href="https://www.youtube.com/watch?v=nwLe9DxReDE&feature=youtu.be">
+            <div>
+                <p className="red-button-text">Showcase Recording</p>
+            </div>
+        </a>
     </div>
     <Modal
             show={showModal}
