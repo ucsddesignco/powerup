@@ -1584,7 +1584,7 @@ a:hover {
   .showcase {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 0 3rem 0;
+    padding: 3rem 0;
   }
  
   .showcase-header-text {
