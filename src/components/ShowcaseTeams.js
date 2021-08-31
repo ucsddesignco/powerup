@@ -3,7 +3,7 @@ export const ShowcaseTeams = [
         team_name: "Blendees",
         team_members: "Nicolette Shin, Jodie Li, Tracy Nguyen, Rou Wen, Adrian Rodriguez-valdez",
         image: require("../assets/images/blendees/blendees.png"),
-        image2: require("../assets/images/blendees/blendees1.png"),
+        image2: require("../assets/images/blendees.png"),
         description: 
             "Blendees is a Black-owned smoothie and juice bar. The team redesigned Blendees’ website and marketing strategies to increase new user engagement, improved discoverability of their services, and amplified their voice as a healthy, Black-owned small business.",
         icon: require("../assets/images/smoothie.svg"),
@@ -61,7 +61,7 @@ export const ShowcaseTeams = [
         team_name: "Cafe X",
         team_members: "Francesco Medina, Minnie Chau, Fiona Feng, Shad Gabrielle Reyes, Camille Yabut, Nathen Shin",
         image: require("../assets/images/cafex/cafe.png"),
-        image2: require("../assets/images/cafex/cafe1.png"),
+        image2: require("../assets/images/cafex.png"),
         description: 
             "Cafe X: By Any Beans Necessary is a Black, women-owned coffee shop. The team worked on a brand refresh: creating new brand style guides, integrating an e-commerce site, and improving customer acquisition / retention strategies.",
         icon: require("../assets/images/cafex.svg"),
@@ -124,7 +124,7 @@ export const ShowcaseTeams = [
         team_name: "Cut & Dry Barbershop",
         team_members: "Julie Han, Fernando Reyes Jr, Thuy-An Hoang, Lillian Wei, Khiem Pham",
         image: require("../assets/images/cut+dry/cut+dry.png"),
-        image2: require("../assets/images/cut+dry/cut+dry1.png"),
+        image2: require("../assets/images/cutanddry.png"),
         description: 
             "Cut & Dry Barbershop is an Asian American-owned barbershop. The team created a brand new, user-friendly website and revamped their social media content to increase business awareness and build their brand surrounding barber culture.",
         icon: require("../assets/images/scissors.svg"),
@@ -180,7 +180,7 @@ export const ShowcaseTeams = [
         team_name: "Furlicious",
         team_members: "Princess Labrador, Hannah Nicole Espejo, Matthew Chijioke, Autumn Bui",
         image: require("../assets/images/furlicious/furlicious.png"),
-        image2: require("../assets/images/furlicious/furlicious1.png"),
+        image2: require("../assets/images/furlicious.png"),
         description: 
             "Furlicious is a Black-owned pet care and training business. The team’s mission is to create an effective marketing plan and aesthetic social media revamp that invites pet owners to engage with Furlicious’s content and services!",
         icon: require("../assets/images/leash.svg"),
@@ -226,7 +226,7 @@ export const ShowcaseTeams = [
         team_name: "Kini Coffee",
         team_members: "Stella Seki, Rainee Pei, Edward De Leon, Deepika Vuppala, Chynna Tumalad",
         image: require("../assets/images/kini/kinicoffee.png"),
-        image2: require("../assets/images/kini/kinicoffee1.png"),
+        image2: require("../assets/images/kini.png"),
         description: 
             "Kini Koffee is a women-led and run coffee shop. The team is bringing people to the rooftops of Del Mar by creating a customer-centered website and social media marketing strategy for Kini Koffee.",
         icon: require("../assets/images/kini.svg"),

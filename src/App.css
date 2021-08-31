@@ -1841,6 +1841,11 @@ img.team-img {
   display: inline-block;
   width: 34vw !important;
   padding-bottom: 40px;
+  filter: grayscale(100%);
+}
+
+img.team-img:hover {
+  filter: none;
 }
 
 .carousel .control-dots  {
