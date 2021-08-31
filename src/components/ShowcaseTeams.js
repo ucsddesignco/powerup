@@ -131,6 +131,8 @@ export const ShowcaseTeams = [
         case_study_link: "https://apple-adasaurus-5fb.notion.site/Cut-Dry-Barbershop-Case-Study-c3497a6f30504bb6af2a39c903998024",
         website: "http://cutanddrybarbershop.com/",
         yelp: "https://www.yelp.com/biz/cut-and-dry-barbershop-san-diego",
+        facebook: "https://www.facebook.com/cutanddrybarbershop/",
+        instagram: "https://www.instagram.com/cutxdrybarbershop/?hl=en",
         team: [
             {
                 member_name: "Julie Han",
@@ -187,6 +189,8 @@ export const ShowcaseTeams = [
         case_study_link: "https://green-drum-8ca.notion.site/Team-Furlicious-Case-Study-3d029ef694df4574bcf9725f6da24399",
         instagram: "https://www.instagram.com/furliciouspetssd/",
         website: "https://www.furliciousco.com/",
+        facebook: "https://www.facebook.com/furliciousco/",
+        yelp: "https://www.yelp.com/biz/furlicious-pet-services-poway",
         team: [
             {
                 member_name: "Princess Labrador",
