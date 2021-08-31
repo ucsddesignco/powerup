@@ -9,22 +9,28 @@ function WhyApply() {
       </div>
       <div className="apply-right-container">
         <div className="apply-item">
-          <img className="orange-arrow" src={OrangeArrow} alt="orange-arrow" />
-          <p>
-            To all the small businesses for partnering with us in our DEI initiative and giving students the chance to make a difference.
-          </p>
+          <div className="orange-arrow" />
+          <div className="apply-text-container">
+            <p>
+              To all the small businesses for partnering with us in our DEI initiative and giving students the chance to make a difference.
+            </p>
+          </div>
         </div>
         <div className="apply-item">
-          <img className="orange-arrow" src={OrangeArrow} alt="orange-arrow" />
-          <p>
-            To all the mentors for taking the time to guide and uplift a cohort of changemakers.
-          </p>
+          <div className="orange-arrow" />
+          <div className="apply-text-container">
+            <p>
+              To all the mentors for taking the time to guide and uplift a cohort of changemakers.
+            </p>
+          </div>
         </div>
         <div className="apply-item">
-          <img className="orange-arrow" src={OrangeArrow} alt="orange-arrow" />
-          <p>
-            To all the students for taking part in Power Up and collaborating to make an impact on local BIPOC- and minority-owned small businesses.
-          </p>
+          <div className="orange-arrow" />
+          <div className="apply-text-container">
+            <p>
+              To all the students for taking part in Power Up and collaborating to make an impact on local BIPOC- and minority-owned small businesses.
+            </p>
+          </div>
         </div>
       </div>
       <div></div>

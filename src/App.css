@@ -1044,7 +1044,8 @@ a:hover {
 
 .apply-left-container {
   font-family: "Neue Plak";
-  margin-right: 6rem;
+  margin-right: 2rem;
+  width: 400px;
 }
 
 .apply-left-container h2 {
@@ -1054,13 +1055,21 @@ a:hover {
 }
 
 .apply-right-container {
+  display: flex;
+  flex-direction: column;
   height: auto;
   font-size: 1.5rem;
+}
+
+.apply-text-container {
+  margin: 0;
+  width: 70vw;
 }
 
 .apply-item {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   text-align: left;
   font-family: "Inter";
   font-size: 1.5rem;
@@ -1069,8 +1078,13 @@ a:hover {
 }
 
 .orange-arrow {
-  margin-right: 2.5rem;
+  background-image: url("./assets/images/orange-arrow.svg");
   align-self: flex-start;
+  height: 60px;
+  width: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 2rem;
 }
 
 .level-up-showcase-link {
@@ -1369,7 +1383,7 @@ a:hover {
 
 .newcard {
   color: #292929;
-  height: 450px;
+  height: 480px;
   min-width: 310px;
   filter: grayscale(100%);
   transition: 0.5s;
