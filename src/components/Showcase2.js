@@ -140,7 +140,7 @@ function Showcase2() {
           </div>
 
           <div className="showcase-medium">
-              <div className="newcard" onClick={() => {display(0)}}>
+              <div className="newcard">
                   <div className="newcard-img1" onClick={() => {display(0)}}/>
                   <div className="newcard-body">
                       <div className="newcard-info">
