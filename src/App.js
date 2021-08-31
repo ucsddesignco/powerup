@@ -67,7 +67,7 @@ function App() {
       }, 1.5)
       .to("#boxes", {
         duration: 0.8,
-        y: "-100vh",
+        y: "-105vh",
         ease: "power3",
       }, 1.5)
       
