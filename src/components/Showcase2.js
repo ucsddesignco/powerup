@@ -32,7 +32,7 @@ function Showcase2() {
                   </div>
                   
 
-                  <div className="newcard-box" id="box1">
+                  <div className="newcard-box" id="box4">
                       <div className="newcard-box-info">
                           <p className="newcardbox-header-text">Blendees</p>
                           <p className="newcardbox-name-text">Nicolette Shin, Jodie Li, Tracy Nguyen, Rou Wen, Adrian Rodriguez Valdez</p>
@@ -91,7 +91,7 @@ function Showcase2() {
           </div>        
               
           
-          <div className="showcase-large">
+          <div className="showcase-large2">
               <div className="newcard">
                   <div className="newcard-img4" onClick={() => {display(3)}}/>
                   <div className="newcard-body">
