@@ -1333,9 +1333,9 @@ a:hover {
   display: flex;
   align-items: center;
   height: 12rem;
-  width: 105vw;
+  width: 105%;
   background-color: #FF5722;
-  transform: rotate(2deg) translateY(8vh) translateX(25vw);
+  transform: rotate(2deg) translateY(8%) translateX(25%);
   position: absolute;
   border: #292929 2px solid;
   white-space: nowrap;
