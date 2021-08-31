@@ -12,6 +12,7 @@ body {
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .cursor {
@@ -1394,7 +1395,7 @@ a:hover {
 }
 
 .newcard:hover > #box1 {
-  transform: translateY(-19.5rem) translateX(12.8px);
+  transform: translateY(-20.5rem) translateX(12.8px);
 }
 
 #box2 {
@@ -1403,7 +1404,7 @@ a:hover {
 
 .newcard:hover > #box2 {
   transition: 0.5s;
-  transform: translateY(-21.5rem) translateX(12.8px);
+  transform: translateY(-23rem) translateX(12.8px);
 }
 
 #box3 {
@@ -1412,7 +1413,7 @@ a:hover {
 
 .newcard:hover > #box3 {
   transition: 0.5s;
-  transform: translateY(-17.5rem) translateX(12.8px);
+  transform: translateY(-19.5rem) translateX(12.8px);
 }
 
 #box4 {
@@ -1421,7 +1422,7 @@ a:hover {
 
 .newcard:hover > #box4 {
   transition: 0.5s;
-  transform: translateY(-20.5rem) translateX(12.8px);
+  transform: translateY(-22rem) translateX(12.8px);
 }
 
 .newcard-img1, .newcard-img2, .newcard-img3, .newcard-img4, .newcard-img5 {
@@ -1665,16 +1666,16 @@ a:hover {
     transform: translateY(3rem);
   }
   .newcard:hover > #box1 {
-    transform: translateY(-19.5rem);
+    transform: translateY(-20.5rem);
   }
   .newcard:hover > #box2 {
-    transform: translateY(-21.5rem);
+    transform: translateY(-23rem);
   }
   .newcard:hover > #box3 {
-    transform: translateY(-17.5rem);
+    transform: translateY(-19.5rem);
   }
   .newcard:hover > #box4 {
-    transform: translateY(-20.5rem);
+    transform: translateY(-22rem);
   }
 }
 
@@ -2030,6 +2031,7 @@ img.team-img:hover {
   border-radius: 30px;
   background-color: #ff5722;
   margin: 0.8rem 0 0;
+  overflow: hidden;
 }
 
 .redstuff {
@@ -2040,7 +2042,7 @@ img.team-img:hover {
 .medium-red-button p {
   display: flex;
   color: #292929;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-family: "Inter";
   margin-bottom: 0.8rem;
 }
