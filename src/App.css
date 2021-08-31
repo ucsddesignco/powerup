@@ -1062,7 +1062,7 @@ a:hover {
 
 .apply-text-container {
   margin: 0;
-  width: 70vw;
+  width: 60vw;
 }
 
 .apply-item {
@@ -1401,7 +1401,7 @@ a:hover {
 }
 
 .newcard:hover > #box1 {
-  transform: translateY(-18.5rem) translateX(12.8px);
+  transform: translateY(-296px) translateX(12.8px);
 }
 
 #box2 {
@@ -1410,7 +1410,7 @@ a:hover {
 
 .newcard:hover > #box2 {
   transition: 0.5s;
-  transform: translateY(-21rem) translateX(12.8px);
+  transform: translateY(-336px) translateX(12.8px);
 }
 
 #box3 {
@@ -1419,7 +1419,7 @@ a:hover {
 
 .newcard:hover > #box3 {
   transition: 0.5s;
-  transform: translateY(-17.5rem) translateX(12.8px);
+  transform: translateY(-280px) translateX(12.8px);
 }
 
 #box4 {
@@ -1428,7 +1428,7 @@ a:hover {
 
 .newcard:hover > #box4 {
   transition: 0.5s;
-  transform: translateY(-20rem) translateX(12.8px);
+  transform: translateY(-320px) translateX(12.8px);
 }
 
 .newcard-img1, .newcard-img2, .newcard-img3, .newcard-img4, .newcard-img5 {
@@ -1672,16 +1672,16 @@ a:hover {
     transform: translateY(3rem);
   }
   .newcard:hover > #box1 {
-    transform: translateY(-20.5rem);
+    transform: translateY(-280px);
   }
   .newcard:hover > #box2 {
-    transform: translateY(-23rem);
+    transform: translateY(-320px);
   }
   .newcard:hover > #box3 {
-    transform: translateY(-19.5rem);
+    transform: translateY(-264px);
   }
   .newcard:hover > #box4 {
-    transform: translateY(-22rem);
+    transform: translateY(-304px);
   }
 }
 
