@@ -32,12 +32,12 @@ function Medium() {
     })
 
   return (
-    <div>
+    <div id="articles-section">
         <div className="medium">
             <div className="medium-red-tape">
-                <p id="medium-1">Coming Soon *</p>
-                <p id="medium-2">Coming Soon *</p>
-                <p id="medium-3">Coming Soon *</p>
+                <p id="medium-1">Coming Soon</p>
+                <p id="medium-2">Coming Soon</p>
+                <p id="medium-3">Coming Soon</p>
             </div>
             <h3>Hear what our Power Uppers and mentors had to say about their experience!</h3>
             <Grid container spacing={4}>

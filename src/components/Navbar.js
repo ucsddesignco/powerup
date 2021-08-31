@@ -26,6 +26,7 @@ function Navbar() {
       <nav className="desktop">
         <a href="#about-section">Overview</a>
         <a href="#showcase-section">Showcase</a>
+        <a href="#articles-section">Articles</a>
       </nav>
 
       <nav className="mobile">
@@ -49,6 +50,11 @@ function Navbar() {
             <div className="nav-item">
               <a href="#showcase-section" onClick={() => closeMenu()}>
                 Showcase
+              </a>
+            </div>
+            <div className="nav-item">
+              <a href="#articles-section" onClick={() => closeMenu()}>
+                Articles
               </a>
             </div>
           </div>
