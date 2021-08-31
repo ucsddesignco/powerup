@@ -1622,6 +1622,11 @@ a:hover {
   text-decoration: none;
 }
 
+.red-button:hover {
+  text-decoration: none;
+  background-color: #e0d9d5;
+}
+
 .red-button-text {
   color: #292929;
   font-size: 0.9rem;
