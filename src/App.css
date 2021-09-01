@@ -447,7 +447,7 @@ a:hover {
 }
 
 #about-section:target {
-  padding-top: calc(70px + 6rem);
+  padding-top: calc(70px + 4.5rem);
 }
 
 /********* ABOUT MEDIA QUERY ********/
@@ -461,6 +461,10 @@ a:hover {
     background: url(assets/images/mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  #about-section:target {
+    padding-top: calc(70px + 3.5rem);
   }
 
   .about-section h1 {
@@ -1037,8 +1041,8 @@ a:hover {
   flex-direction: row;
 }
 
-#whyapply-section:target {
-  padding-top: calc(70px + 7.5rem);
+#showcase-section:target {
+  padding-top: calc(70px + 4.5rem);
 }
 
 .apply-left-container {
@@ -1147,8 +1151,9 @@ a:hover {
   .apply-here-btn {
     display: inline;
   }
-  #whyapply-section:target {
-    padding-top: calc(3.5rem + 70px);
+
+  #about-section:target {
+    padding-top: calc(70px + 2.5rem);
   }
 }
 
@@ -1987,6 +1992,10 @@ img.team-img:hover {
   background-color: #292929;
   color: #e0d9d5;
   padding: 4.5rem 8vw 6rem;
+}
+
+#articles-section:target {
+  padding-top: calc(70px + 2.5rem);
 }
 
 .medium h3 {
