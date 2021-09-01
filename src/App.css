@@ -2115,7 +2115,7 @@ img.team-img:hover {
   }
 
   #articles-section:target {
-    padding-top: 0;
+    padding-top: 70px;
   }
 }
 
