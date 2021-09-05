@@ -2050,11 +2050,15 @@ img.team-img:hover {
   background-color: #ff5722;
   margin: 0.8rem 0 0;
   overflow: hidden;
+  text-decoration: none;
 }
 
-.redstuff {
-  display: flex;
-  height: auto;
+.medium-red-button a {
+  text-decoration: none;
+}
+
+.medium-red-button a:hover {
+  text-decoration: underline #292929 solid 1px;
 }
 
 .medium-red-button p {

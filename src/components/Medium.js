@@ -34,11 +34,7 @@ function Medium() {
   return (
     <div id="articles-section">
         <div className="medium">
-            <div className="medium-red-tape">
-                <p id="medium-1">Coming Soon</p>
-                <p id="medium-2">Coming Soon</p>
-                <p id="medium-3">Coming Soon</p>
-            </div>
+            
             <h3>Hear what our Power Uppers and mentors had to say about their experience!</h3>
             <Grid container spacing={4}>
                 <Grid item xs={12} sm={12} md={6} lg={3}>
@@ -49,7 +45,7 @@ function Medium() {
                                 <p>Meet 4 students from Blendees, Cafe X, and Cut & Dry Barbershop</p>
                             </div>
                             <div className="medium-red-button">
-                                <p>READ ARTICLE</p>
+                                <a href="http://bit.ly/powerup-article1" target="_blank"><p>READ ARTICLE</p></a>
                             </div> 
                         </div>
                     </div>
@@ -62,7 +58,7 @@ function Medium() {
                                 <p>Meet 3 students from Furlicious and Kini Koffee</p>
                             </div>
                             <div className="medium-red-button">
-                                <p>READ ARTICLE</p>
+                                <a href="http://bit.ly/powerup-article2" target="_blank"><p>READ ARTICLE</p></a>
                             </div>
                         </div>
                     </div>
@@ -75,7 +71,7 @@ function Medium() {
                                 <p>Read what 4 design and marketing mentors have to say about their experience</p>
                             </div>
                             <div className="medium-red-button">
-                                <p>READ ARTICLE</p>
+                                <a href="http://bit.ly/powerup-mentor-article" target="_blank"><p>READ ARTICLE</p></a>
                             </div>
                         </div>
                     </div>
