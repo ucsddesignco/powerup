@@ -35,7 +35,7 @@ function Medium() {
     <div id="articles-section">
         <div className="medium">
             
-            <h3>Hear what our Power Uppers and mentors had to say about their experience!</h3>
+            <h3>Hear what our Power Uppers, mentors, and small businesses had to say about their experience!</h3>
             <Grid container spacing={4}>
                 <Grid item xs={12} sm={12} md={6} lg={3}>
                     <div className="medium-card">
