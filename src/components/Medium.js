@@ -77,10 +77,18 @@ function Medium() {
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={3}>
-                    <div className="medium-chad-container">
-                        <div className="medium-chad"></div>
+                    <div className="medium-card">
+                        <div className="medium-card-container">
+                            <div className="medium-card-head">
+                                <h4>From Small Business to Big Impact: How Power Up Teams Transformed Blendees & Café X</h4>
+                                <p>Highlighting the owners of Blendees and Café X</p>
+                            </div>
+                            <div className="medium-red-button">
+                                <a href="http://bit.ly/powerup-sbo-article" target="_blank"><p>READ ARTICLE</p></a>
+                            </div>
+                        </div>
                     </div>
-                </Grid> 
+                </Grid>
             </Grid>
         </div>
     </div>
