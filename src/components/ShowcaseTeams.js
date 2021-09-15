@@ -238,6 +238,7 @@ export const ShowcaseTeams = [
         instagram: "https://www.instagram.com/kinikoffee/",
         facebook: "https://www.facebook.com/Kini-Koffee-1213535565513951/",
         yelp: "https://www.yelp.com/biz/kini-koffee-del-mar-2",
+        website: "https://www.kinikoffeesd.com/",
         team: [
             {
                 member_name: "Stella Seki",
